@@ -1,3 +1,4 @@
+#카메라 제어
 import cv2
 
 capture = cv2.VideoCapture(0) #카메라 영상 밭아오기
