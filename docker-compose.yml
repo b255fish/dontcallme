@@ -1,0 +1,47 @@
+version: '3.7'
+services:
+  tomcat:
+    image: tomcat:9.0.27-jdk13-openjdk-oracle
+    depends_on:
+      - mysql
+      - adminer
+    environment:
+      # JDBC_URL: jdbc:mysql://mysql:3306/dontcallme?connectTimeout=0&amp;socketTimeout=0&amp;autoReconnect=true
+      JDBC_URL: jdbc:mysql://mysql:3306/dontcallme
+      JDBC_USER: example_db_user
+      JDBC_PASS: example_db_pass
+    volumes:
+      - "./out/artifacts/dontcallme_war:/usr/local/tomcat/webapps"
+      - "./tomcat/conf/server.xml:/usr/local/tomcat/conf/server.xml"
+      - "./tomcat/logs:/usr/local/tomcat/logs"
+    restart: always
+    ports:
+      - 8081:8081
+    networks:
+      - webnet
+  mysql:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: dontcallme
+      MYSQL_USER: example_db_user
+      MYSQL_PASSWORD: example_db_pass
+    volumes:
+      - "./mysql:/docker-entrypoint-initdb.d"
+    restart: always
+    ports:
+      - 3306:3306
+    networks:
+      - webnet
+  adminer:
+    image: adminer
+    depends_on:
+      - mysql
+    restart: always
+    ports:
+      - 8080:8080
+    networks:
+      - webnet
+networks:
+  webnet:

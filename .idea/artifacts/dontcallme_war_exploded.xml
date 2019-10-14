@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="dontcallme:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="dontcallme" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-codec-1.13" />
+          <element id="library" level="project" name="jakarta.mail-1.6.4" />
+          <element id="library" level="project" name="commons-dbcp2-2.7.0" />
+          <element id="library" level="project" name="commons-pool2-2.7.0" />
+          <element id="library" level="project" name="commons-logging-1.2" />
+          <element id="library" level="project" name="jakarta.activation-1.2.1" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.18" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="dontcallme/web/Web" />
+    </root>
+  </artifact>
+</component>

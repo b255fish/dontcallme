@@ -1,0 +1,23 @@
+MySQL connector.jar 넣어서 DB 연동은 되는거같은데
+  - join 에서 SQLExceiption 뜨는듯.. 이미 존재하는 아이디입니다? INSERT 때 DB에 넣어지는거 아닌가? ..
+  ?? .java 에서 바로 웹 페이지에 뭔가 출력할 수 있으면 어디가 잘못된 값을 가졋는지 확인하기 쉬운데.. 하는방법이..?
+
+- Database Util 부분에 유저를 꼭 root로 해야하는건가?  
+  public class DatabaseUtil { // DB와 연동되는 부분을 정의
+      // private AESDec aes;
+      private static BasicDataSource dataSource = new BasicDataSource();
+      private static final String JDBC_URL = "jdbc:mysql://localhost:3306/dontcallme";
+      private static final String JDBC_USER = "root";
+      private static final String JDBC_PASS = "example";
+
+      public static void init() {
+          // setUrl Note: this method currently has no effect once the pool has been initialized. The pool is initialized the first time one of the following methods is invoked: getConnection, setLogwriter, setLoginTimeout, getLoginTimeout, getLogWriter.
+          dataSource.setUrl(JDBC_URL);
+          dataSource.setUsername(JDBC_USER);
+          dataSource.setPassword(JDBC_PASS);
+
+
+- 내 키보드 스페이스바랑 알트 키 스위치 고장남
+
+JDBC, JNDI ?
+https://m.blog.naver.com/PostView.nhn?blogId=james2021&logNo=30111431681&proxyReferer=https%3A%2F%2Fwww.google.com%2F
