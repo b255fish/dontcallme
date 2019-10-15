@@ -40,10 +40,6 @@ function FormSubmit() { if (grecaptcha.getResponse() == "")
 
 </head>
 <body>
-	<%=System.getProperty("JDBC_URL")%>
-	<%=System.getProperty("user_name")%>
-	<%=System.getProperty("java.version")%>
-
 	<nav class="navbar navbar-default">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed"

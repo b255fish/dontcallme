@@ -3,6 +3,7 @@
 <%@ page import="user.UserDAO" %>
 <%@ page import="user.UserDTO" %>
 <%@ page import="java.io.PrintWriter" %>
+<%@ page import="java.security.GeneralSecurityException" %>
 <% request.setCharacterEncoding("UTF-8"); %>
 <jsp:useBean id="user" class="user.UserDTO" scope="page" />
 <jsp:setProperty name="user" property="userID" />
@@ -34,8 +35,13 @@
 			userID = (String) session.getAttribute("userID");
 		}
 		UserDAO userDAO = new UserDAO();
-	
-		int result = userDAO.remove(userID);
+
+		int result = 0;
+		try {
+			result = userDAO.remove(userID);
+		} catch (GeneralSecurityException e) {
+			e.printStackTrace();
+		}
 
 		if (result == -1) {
 			PrintWriter script = response.getWriter();

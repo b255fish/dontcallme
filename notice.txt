@@ -11,18 +11,38 @@ _init
   IntelliJ
     import setting
 
+MySQL log setting
+    필요한 데이터베이스만 마운트. (원래 다 해야되는데 그냥 깃허브 용량/보안상(?) 다른건 건드리지 않았으니까 이거만 ㅇㅇ.. 일단)
+
 docker-compose.yml
+  - Volumes mount in docker-compose.yml
+    - 서브디렉토리는 마운트 안됌
+    - (리눅스) 경로설정 시, 새 폴더는 만들지 않지만, 새 파일은 만든다. 디렉터리 폴더가 없으면 오류가 뜸.
+        Ex. MySQL
   - 윈도우 서비스에 해당 포트로 실행중이거나, 중지되어있어도 프로그램은 존재하지 않지만 서비스에 남아있는 경우 사용이불 가능 능할 수 있다.
     regedit - HKEY_LOCAL_MACIHNE\SYSTEM\CurrentControlSet\Services\<Service Name> delete
   - 예약된 포트도 사용중이라면(?) 이용할 수 없다.
     netsh interface ipv4 show excludedportrange protocol=tcp
+  - MySQL
+    Volume 설정 새로 만든 DB만 하고 싶은데 안되는듯.. 전체 마운트해야하는듯.. Initializing database 에서 멈춤..
+        - "./mysql/var/lib/mysql:/var/lib/mysql"
+  - 동일한 네트워크간에 환경변수 공유함.
 
 IntelliJ
   Database 연결 시, localhost 로 연결해야 한다. 현재 개발은 IDE (localhost)에서 진행하기 때문.
     jdbc:mysql://localhost:3306/dontcallme, not jdbc:mysql://mysql:3306/dontcallme
     - 이 때는 컨테이너간 통신이 아니며, 로컬호스트와 컨테이너의 통신이다.
+  Scratch files (임시 파일)
+    https://www.jetbrains.com/help/idea/scratches.html
+    위치: %HOMEPATH%\  ~
+  ★ IntelliJ 도커 연결된 상태에서 compose 이후, 인텔리제이 껏다키거나 절전모드/재시작 할 경우 compose-down 버튼이 사라짐.,
+    파워쉘에서 다음 명령어 치고 나오는 컨테이너 ID 일부만 쳐서 제거하면 정상으로 돌아옴
+        docker container ls
+        docker container rm <arbitrary container ID1> [...2 ...3]
+            Ex. docker container ls 에서 나온 container id 가 a5d0... d552... 3945... 일 때,
+                docker container rm a5 d5 39        // 3개 컨테이너 제거
 
- .jsp
+.jsp
     - 테스트용
         <%= 웹에 출력할 자바 식 %>
             Ex. <%=System.getProperty("java.version")%>
@@ -33,3 +53,8 @@ IntelliJ
             script.println("history.back()");
             script.println("</script>");
             script.close();
+
+Java
+    Properties class
+        put and putAll method: 호출자가문자열이 아닌 키 또는 값을 가진 엔트리를 삽입할 수 있으므로 사용하지 말 것.
+

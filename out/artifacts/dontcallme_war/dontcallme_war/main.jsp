@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@ page import="java.io.PrintWriter" %>
 <%@ page import="user.UserDAO" %>
+<%@ page import="java.security.GeneralSecurityException" %>
 
 <!DOCTYPE html>
 <html>
@@ -45,8 +46,13 @@
 		script.close();
 		return;
 	}
-		boolean emailChecked = new UserDAO().getUserEmailChecked(userID);
-		if(emailChecked == false) {
+		boolean emailChecked = false;
+		try {
+			emailChecked = new UserDAO().getUserEmailChecked(userID);
+		} catch (GeneralSecurityException e) {
+			e.printStackTrace();
+		}
+		if(!emailChecked) {
 			PrintWriter script = response.getWriter();
 			script.println("<script>");
 			script.println("location.href = 'emailSendConfirm.jsp'; ");
@@ -87,7 +93,7 @@
 					</ul>
 				</li>
 			</ul>
-			<%		
+			<%
 				} else {
 			%>
 			<ul class="nav navbar-nav navbar-right">
@@ -100,7 +106,7 @@
 						<li><a onclick="return confirm('정말로 탈퇴하시겠습니까?')" href="removeAction.jsp">회원탈퇴</a></li>
 					</ul>
 				</li>
-			</ul>			
+			</ul>
 			<%
 				}
 			%>

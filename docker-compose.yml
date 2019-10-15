@@ -6,7 +6,6 @@ services:
       - mysql
       - adminer
     environment:
-      # JDBC_URL: jdbc:mysql://mysql:3306/dontcallme?connectTimeout=0&amp;socketTimeout=0&amp;autoReconnect=true
       JDBC_URL: jdbc:mysql://mysql:3306/dontcallme
       JDBC_USER: example_db_user
       JDBC_PASS: example_db_pass
@@ -28,9 +27,10 @@ services:
       MYSQL_USER: example_db_user
       MYSQL_PASSWORD: example_db_pass
     volumes:
-      - "./mysql/lib/mysql:/var/lib/mysql"
-      - "./mysql/log:/var/log"
       - "./mysql:/docker-entrypoint-initdb.d"
+      - "./mysql/etc/mysql/my.cnf:/etc/mysql/my.cnf"
+      - "./mysql/var/log:/var/log"
+      - "./mysql/var/lib/mysql:/var/lib/mysql"
     restart: always
     ports:
       - 3306:3306

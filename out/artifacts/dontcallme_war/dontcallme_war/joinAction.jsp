@@ -74,14 +74,14 @@
 			Pattern emailPattern = Pattern.compile("^[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*@[0-9a-zA-Z]([-_.]?[0-9a-zA-Z])*.[a-zA-Z]{2,3}$");
 			Matcher matcher2 = emailPattern.matcher(userEmail);
 
-			if (matcher1.matches() == false) {
+			if (!matcher1.matches()) {
 				PrintWriter script = response.getWriter();
 				script.println("<script>");
 				script.println("alert('8~20자 영문+숫자+특수문자를 사용하세요.')");
 				script.println("history.back()");
 				script.println("</script>");
 			}
-			else if (matcher2.matches() == false) {
+			else if (!matcher2.matches()) {
 				PrintWriter script = response.getWriter();
 				script.println("<script>");
 				script.println("alert('잘못된 이메일 형식입니다.')");

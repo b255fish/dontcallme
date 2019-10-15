@@ -2,6 +2,7 @@
 <%@ page import="user.UserDAO"%>
 <%@ page import="util.SHA256"%>
 <%@ page import="java.io.PrintWriter"%>
+<%@ page import="java.security.GeneralSecurityException" %>
 <%
 	request.setCharacterEncoding("UTF-8");
 	String code = request.getParameter("code");
@@ -21,12 +22,21 @@
 		script.close();
 		return;
 	}
+
+	String userEmail = null;
+	try {
+		userEmail = userDAO.getUserEmail(userID);
+	} catch (GeneralSecurityException e) {
+		e.printStackTrace();
+	}
+	boolean rightCode = new SHA256().getSHA256(userEmail).equals(code);
 	
-	String userEmail = userDAO.getUserEmail(userID);
-	boolean rightCode = (new SHA256().getSHA256(userEmail).equals(code)) ? true : false;
-	
-	if(rightCode == true) {
-		userDAO.setUserEmailChecked(userID);
+	if(rightCode) {
+		try {
+			userDAO.setUserEmailChecked(userID);
+		} catch (GeneralSecurityException e) {
+			e.printStackTrace();
+		}
 		PrintWriter script = response.getWriter();
 		script.println("<script>");
 		script.println("alert('인증에 성공했습니다.');");

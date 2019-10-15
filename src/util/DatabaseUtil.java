@@ -7,6 +7,7 @@ import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 import javax.servlet.ServletException;
 import javax.sql.DataSource;
+import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -23,9 +24,9 @@ import java.util.Properties;
 public class DatabaseUtil { // DB와 연동되는 부분을 정의
     // private AESDec aes;
     private static BasicDataSource dataSource = new BasicDataSource();
-    private static final String JDBC_URL = "jdbc:mysql://mysql:3306/dontcallme";
-    private static final String JDBC_USER = "example_db_user";
-    private static final String JDBC_PASS = "example_db_pass";
+    private static final String JDBC_URL = System.getenv("JDBC_URL");       // Runtime Environment Variables
+    private static final String JDBC_USER = System.getenv("JDBC_USER");
+    private static final String JDBC_PASS = System.getenv("JDBC_PASS");
 
     public static void init() {
         // setUrl Note: this method currently has no effect once the pool has been initialized. The pool is initialized the first time one of the following methods is invoked: getConnection, setLogwriter, setLoginTimeout, getLoginTimeout, getLogWriter.
@@ -33,14 +34,6 @@ public class DatabaseUtil { // DB와 연동되는 부분을 정의
         dataSource.setUrl(JDBC_URL);
         dataSource.setUsername(JDBC_USER);
         dataSource.setPassword(JDBC_PASS);
-        String abc = System.getenv(JDBC_URL);
-
-        /*
-        root로 해야하나?...
-        null.. 컴파일 환경 차이..? 내 컴퓨터에서 하면 안나오지만, 도커에서 컴파일하면 환경변수가 있어서 불러오기 가능?
-        dataSource.setUrl(System.getProperty("JDBC_URL"));
-        dataSource.setUsername(System.getProperty("JDBC_USER"));
-        dataSource.setPassword(System.getProperty("JDBC_PASS"));*/
     }
 
     public static BasicDataSource getDataSource() {
@@ -48,28 +41,22 @@ public class DatabaseUtil { // DB와 연동되는 부분을 정의
     }
 }
 
-/*
-            dataSource.setUrl(System.getProperty("JDBC_URL"));
-        dataSource.setUsername(System.getProperty("JDBC_USER"));
-        dataSource.setPassword(System.getProperty("JDBC_PASS"));
 
-        ? 통하나? 컨테이너에서 돌릴떄라서 이건..
+/*
+? .properties 에서 비밀번호를 가져오는것이 아니라 docker-compose.yml 에서 가져와서 별 필요없는듯?.. ?.. 암호화의 범위를 정해야함..
 
     public Connection getConnection() throws GeneralSecurityException {
         AESDec aes = null;
-        FileInputStream fis = null;
-        FileInputStream key_fis = null;
-        try {
-            // ★ it must be tested!!
-            String propFile = "util\\key.properties";
-            Properties props = new Properties();
-            fis = new FileInputStream(propFile);
-            props.load(new java.io.BufferedInputStream(fis));
+        String propFile = "src\\util\\key.properties";
+        String read_key = "src\\util\\keymanagement.properties";
 
-            String read_key = "util\\keymanagement.properties";
+        try (FileInputStream fis = new FileInputStream(propFile);
+             FileInputStream key_fis = new FileInputStream(read_key)) {
+            Properties props = new Properties();
+            props.load(new BufferedInputStream(fis));
+
             Properties key = new Properties();
-            key_fis = new FileInputStream(read_key);
-            key.load(new java.io.BufferedInputStream(key_fis));
+            key.load(new BufferedInputStream(key_fis));
 
             String aes_key = key.getProperty("key");
             if (aes_key != null) { //true
@@ -92,18 +79,9 @@ public class DatabaseUtil { // DB와 연동되는 부분을 정의
 //				key_fis.close();
         } catch (Exception e) {
             e.printStackTrace();
-        } finally {
-            if (fis != null) try {
-                fis.close();
-            } catch (IOException e) {
-                System.err.println("UserDAO IOException error");
-            }
-            if (key_fis != null) try {
-                key_fis.close();
-            } catch (IOException e) {
-                System.err.println("UserDAO IOException error");
-            }
+            return null;
         }
         return null; // 오류가 발생한경우 null 반환
-    }  */
+    }
 
+ */

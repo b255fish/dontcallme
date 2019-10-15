@@ -48,7 +48,11 @@
 	
 		UserDAO userDAO = new UserDAO();
 		int result = 0;
-		result = userDAO.login(user.getUserID(), user.getUserPassword(), user.getUserIP());
+		try {
+			result = userDAO.login(user.getUserID(), user.getUserPassword(), user.getUserIP());
+		} catch (GeneralSecurityException e) {
+			e.printStackTrace();
+		}
 		if (result == 1) {
 			session.setAttribute("userID",user.getUserID());
 			session.setAttribute("userIP",user.getUserIP());
