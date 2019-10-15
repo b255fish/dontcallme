@@ -100,6 +100,13 @@
 					e.printStackTrace();
 				}
 
+				if (result == 2) {
+					PrintWriter script = response.getWriter();
+					script.println("<script>");
+					script.println("alert('연결에서 오류.')");
+					script.println("history.back()");
+					script.println("</script>");
+				}
 				if (result == -1) {
 					PrintWriter script = response.getWriter();
 					script.println("<script>");

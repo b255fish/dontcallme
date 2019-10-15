@@ -23,12 +23,13 @@ import java.util.Properties;
 public class DatabaseUtil { // DB와 연동되는 부분을 정의
     // private AESDec aes;
     private static BasicDataSource dataSource = new BasicDataSource();
-    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/dontcallme";
+    private static final String JDBC_URL = "jdbc:mysql://mysql:3306/dontcallme";
     private static final String JDBC_USER = "root";
     private static final String JDBC_PASS = "example";
 
     public static void init() {
         // setUrl Note: this method currently has no effect once the pool has been initialized. The pool is initialized the first time one of the following methods is invoked: getConnection, setLogwriter, setLoginTimeout, getLoginTimeout, getLogWriter.
+        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl(JDBC_URL);
         dataSource.setUsername(JDBC_USER);
         dataSource.setPassword(JDBC_PASS);
@@ -73,12 +74,6 @@ public class DatabaseUtil { // DB와 연동되는 부분을 정의
             if (aes_key != null) { //true
                 aes = new AESDec(aes_key);
             }
-
-
-
-            String dbURL = "jdbc:mysql://localhost:3306/dontcallme?characterEncoding=UTF-8&serverTimezone=UTC";
-            String dbID = "root";
-            String dbPassword = ""; // =props.getProperty("password");
 
             if (aes != null) { //true
                 String temp = aes.aesEncode(props.getProperty("password"));

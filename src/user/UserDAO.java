@@ -18,12 +18,12 @@ public class UserDAO { //DB와 1대1로 연동되어 DB에 데이터를 기록�
     public int login(String userID, String userPassword, String userIP) throws GeneralSecurityException {
         String SQL = "SELECT userPassword FROM CCTV WHERE userID = ? and userIP = ? ";
 
-        try (Connection conn = DatabaseUtil.getDataSource().getConnection();
-             PreparedStatement pstmt = conn.prepareStatement(SQL)) {
+        try (Connection conn = DatabaseUtil.getDataSource().getConnection()) {
+            PreparedStatement pstmt = conn.prepareStatement(SQL);
             pstmt.setString(1, userID);
             pstmt.setString(2, userIP);
             ResultSet rs = pstmt.executeQuery();
-            if (rs.getString("userID").contentEquals(userPassword)) {
+            if (rs.getString(1).contentEquals(userPassword)) {
                 return 1; //로그인 성공
             } else {
                 return 0; //비밀번호 틀림
@@ -39,9 +39,8 @@ public class UserDAO { //DB와 1대1로 연동되어 DB에 데이터를 기록�
     public int join(UserDTO user) throws GeneralSecurityException {
         String SQL = "INSERT INTO CCTV VALUES(?, ?, ?, ?, ?, ?, false, ?)"; //?는 사용자가 직접 입력한 값
 
-        try (Connection conn = DatabaseUtil.getDataSource().getConnection();
-             PreparedStatement pstmt = conn.prepareStatement(SQL)) {
-
+        try (Connection conn = DatabaseUtil.getDataSource().getConnection()) {
+            PreparedStatement pstmt = conn.prepareStatement(SQL);
             pstmt.setString(1, user.getUserID());
             pstmt.setString(2, user.getUserPassword());
             pstmt.setString(3, user.getUserName());
@@ -60,8 +59,8 @@ public class UserDAO { //DB와 1대1로 연동되어 DB에 데이터를 기록�
     public int remove(String userID) throws GeneralSecurityException {
         String SQL = "DELETE FROM CCTV WHERE userID = ? ";
 
-        try (Connection conn = DatabaseUtil.getDataSource().getConnection();
-             PreparedStatement pstmt = conn.prepareStatement(SQL)) {
+        try (Connection conn = DatabaseUtil.getDataSource().getConnection()) {
+            PreparedStatement pstmt = conn.prepareStatement(SQL);
             pstmt.setString(1, userID);
             return pstmt.executeUpdate();
         } catch (SQLException e) {
@@ -74,8 +73,8 @@ public class UserDAO { //DB와 1대1로 연동되어 DB에 데이터를 기록�
     public boolean getUserEmailChecked(String userID) throws GeneralSecurityException {
         String SQL = "SELECT userEmailChecked FROM CCTV WHERE userID = ?"; //?는 사용자가 직접 입력한 값
 
-        try (Connection conn = DatabaseUtil.getDataSource().getConnection();
-             PreparedStatement pstmt = conn.prepareStatement(SQL)) {
+        try (Connection conn = DatabaseUtil.getDataSource().getConnection()) {
+            PreparedStatement pstmt = conn.prepareStatement(SQL);
             pstmt.setString(1, userID);
             ResultSet rs = pstmt.executeQuery();
             if (rs.next()) {
@@ -91,8 +90,8 @@ public class UserDAO { //DB와 1대1로 연동되어 DB에 데이터를 기록�
     public String getUserEmail(String userID) throws GeneralSecurityException {
         String SQL = "SELECT userEmail FROM CCTV WHERE userID = ?";
 
-        try (Connection conn = DatabaseUtil.getDataSource().getConnection();
-             PreparedStatement pstmt = conn.prepareStatement(SQL)) {
+        try (Connection conn = DatabaseUtil.getDataSource().getConnection()) {
+            PreparedStatement pstmt = conn.prepareStatement(SQL);
             pstmt.setString(1, userID);
             ResultSet rs = pstmt.executeQuery();
             if (rs.next()) {
@@ -108,8 +107,8 @@ public class UserDAO { //DB와 1대1로 연동되어 DB에 데이터를 기록�
     public boolean setUserEmailChecked(String userID) throws GeneralSecurityException {
         String SQL = "UPDATE CCTV SET userEmailChecked = true WHERE userID = ? ";
 
-        try (Connection conn = DatabaseUtil.getDataSource().getConnection();
-             PreparedStatement pstmt = conn.prepareStatement(SQL)) {
+        try (Connection conn = DatabaseUtil.getDataSource().getConnection()) {
+            PreparedStatement pstmt = conn.prepareStatement(SQL);
             pstmt.setString(1, userID);
             pstmt.executeUpdate();
             return true;
