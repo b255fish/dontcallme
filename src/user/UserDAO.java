@@ -23,12 +23,15 @@ public class UserDAO { //DB와 1대1로 연동되어 DB에 데이터를 기록�
             pstmt.setString(1, userID);
             pstmt.setString(2, userIP);
             ResultSet rs = pstmt.executeQuery();
-            if (rs.getString(1).contentEquals(userPassword)) {
-                return 1; //로그인 성공
-            } else {
-                return 0; //비밀번호 틀림
+            if(rs.next()) {
+                if(rs.getString(1).contentEquals(userPassword)) {
+                    return 1; //로그인 성공
+                }
+                else {
+                    return 0; //비밀번호 틀림
+                }
             }
-            // ★ return -1; //아이디 없음 ? 알고리즘 새로 필요?
+            return -1; //아이디 없음
         } catch (SQLException e) {
             e.printStackTrace();
             return -2; //데이터베이스 오류

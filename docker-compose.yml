@@ -28,6 +28,8 @@ services:
       MYSQL_USER: example_db_user
       MYSQL_PASSWORD: example_db_pass
     volumes:
+      - "./mysql/lib/mysql:/var/lib/mysql"
+      - "./mysql/log:/var/log"
       - "./mysql:/docker-entrypoint-initdb.d"
     restart: always
     ports:
