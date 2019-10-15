@@ -23,7 +23,7 @@ services:
     image: mysql
     command: --default-authentication-plugin=mysql_native_password
     environment:
-      MYSQL_ROOT_PASSWORD: example
+      MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: dontcallme
       MYSQL_USER: example_db_user
       MYSQL_PASSWORD: example_db_pass

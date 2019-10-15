@@ -24,8 +24,8 @@ public class DatabaseUtil { // DB와 연동되는 부분을 정의
     // private AESDec aes;
     private static BasicDataSource dataSource = new BasicDataSource();
     private static final String JDBC_URL = "jdbc:mysql://mysql:3306/dontcallme";
-    private static final String JDBC_USER = "root";
-    private static final String JDBC_PASS = "example";
+    private static final String JDBC_USER = "example_db_user";
+    private static final String JDBC_PASS = "example_db_pass";
 
     public static void init() {
         // setUrl Note: this method currently has no effect once the pool has been initialized. The pool is initialized the first time one of the following methods is invoked: getConnection, setLogwriter, setLoginTimeout, getLoginTimeout, getLogWriter.
@@ -33,6 +33,7 @@ public class DatabaseUtil { // DB와 연동되는 부분을 정의
         dataSource.setUrl(JDBC_URL);
         dataSource.setUsername(JDBC_USER);
         dataSource.setPassword(JDBC_PASS);
+        String abc = System.getenv(JDBC_URL);
 
         /*
         root로 해야하나?...

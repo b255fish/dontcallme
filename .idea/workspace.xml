@@ -7,29 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bbd383-519d-43ed-8f84-2c3c49227398" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/dontcallme_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/dontcallme_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/dontcallme_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/dontcallme_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e8802052-eab6-427d-a731-edd020e7d482.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e8802052-eab6-427d-a731-edd020e7d482.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_18.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dontcallme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dontcallme.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/mysql-init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/mysql-init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/user/UserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/DatabaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/DatabaseUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/joinAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/joinAction.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/mainAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/mainAction.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/user/UserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/util/DatabaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/util/DatabaseUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/joinAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/joinAction.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/mainAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/mainAction.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dontcallme/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dontcallme/user/UserDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/dontcallme/util/DatabaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dontcallme/util/DatabaseUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/UserDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/DatabaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/DatabaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-14.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/joinAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/joinAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-15.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-15.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +165,7 @@
       <workItem from="1571003409420" duration="8723000" />
       <workItem from="1571012242384" duration="16168000" />
       <workItem from="1571055180121" duration="640000" />
-      <workItem from="1571070035451" duration="12448000" />
+      <workItem from="1571070035451" duration="13848000" />
     </task>
     <servers />
   </component>
