@@ -76,19 +76,19 @@
 
 
     try (Connection conn = DatabaseUtil.getDataSource().getConnection()) {
-		String sql1 = "select * from cctv where userID = ?";
-		PreparedStatement pstmt = conn.prepareStatement(sql1);
+        String sql1 = "select * from CCTV where userID = ?";
+        PreparedStatement pstmt = conn.prepareStatement(sql1);
 
-		Statement stmt = null;
-		pstmt.setString(1, userID);
-		stmt = conn.createStatement();
-		String sql2 = "select * from cctv where userID = '" + userID + "'";
-		ResultSet rs = stmt.executeQuery(sql2);
+        Statement stmt = null;
+        pstmt.setString(1, userID);
+        stmt = conn.createStatement();
+        String sql2 = "select * from CCTV where userID = '" + userID + "'";
+        ResultSet rs = stmt.executeQuery(sql2);
 
-		if (rs.next()) {
-			userName = rs.getString("userName");
-			userEmail = rs.getString("userEmail");
-		}
+        if (rs.next()) {
+            userName = rs.getString("userName");
+            userEmail = rs.getString("userEmail");
+        }
     } catch (SQLException e) {
         e.printStackTrace();
     }
@@ -240,11 +240,11 @@
 		// 1. 드라이버 로딩
 		Class.forName("com.mysql.jdbc.Driver");
 		// 2. DB 연결
-		//String sql2 = "select * from cctv where id = '" + userID + "'";
+		//String sql2 = "select * from CCTV where id = '" + userID + "'";
 		conn = DatabaseUtil.getConnection();
 		//pstmt = conn.prepareStatement(sql2);
 		// 3. sql  id에 해당하는 모든정보 가져오기
-		String sql = "select * from cctv where userID = ?";
+		String sql = "select * from CCTV where userID = ?";
 		pstmt = conn.prepareStatement(sql);
 		pstmt.setString(1, userID);
 
@@ -252,7 +252,7 @@
 
 		// 4. rs 실행 저장
 		//rs = pstmt.executeQuery();
-		String sql2 = "select * from cctv where userID = '" + userID + "'";
+		String sql2 = "select * from CCTV where userID = '" + userID + "'";
 		rs = stmt.executeQuery(sql2);
 
 		// 5. rs => 변수저장, 출력
