@@ -30,7 +30,7 @@ services:
       - "./mysql:/docker-entrypoint-initdb.d"
       - "./mysql/etc/mysql/my.cnf:/etc/mysql/my.cnf"
       - "./mysql/var/log:/var/log"
-      - "./mysql/var/lib/mysql:/var/lib/mysql"
+      # - "./mysql/var/lib/mysql:/var/lib/mysql"
     restart: always
     ports:
       - 3306:3306

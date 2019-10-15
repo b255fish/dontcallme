@@ -1,9 +1,11 @@
 - WEB_INF - web.xml 설정 필요? 서블릿에만 필요한건가?
 - Spring 같은 프레임워크 적용하면 보안설정 추가로 뭐 할 수 있나? 필요한가?
+- 쿠버네티스 (개별 - 박준수)
+- MySQL 보안설정?때문에 lib/mysql (DB 정보) 를 마운트하는건 배포 시, 용량만 잡아먹음...일단 볼륨 마운트 안해놓겟음. (docmer-compose.yml)
+    - client.pem 같은게 있어서 보안상 중요한 파일도 있음
 - Secure coding
     private, final, 접두사 필요한 곳에 추가.
     try-with-resource 구문 필요한 곳 사용 (Ex. 파일입출력, DB 연결)
     쓰레드 고려
     예외 처리.. 통일.. 어떤식?.. 흠.. 결과?..
     JDBC_USER, JDBC_PASS? .properties 에서 비밀번호를 가져오는것이 아니라 docker-compose.yml 에서 가져와서 별 필요없는듯?.. 아닌가?..?.. 암호화의 범위를 정해야함..
-- 쿠버네티스 (개별 - 박준수)
