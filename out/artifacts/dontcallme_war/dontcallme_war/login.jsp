@@ -101,10 +101,10 @@ function FormSubmit() { if (grecaptcha.getResponse() == "")
 					</div>
 					<input type="submit" class="btn btn-primary form-control" value="로그인"> <br />
 					<br />
-					<div id="html_element" class="g-recaptcha" data-sitekey="6LfcBroUAAAAAMq9QgxvgprKBVxV15KZHIhsQM73"
+					<div id="html_element" class="g-recaptcha" data-sitekey="6LfU9b0UAAAAAPud8cUMib-6WHvikWx457wwQqcS"
 					style="margin:0 auto;"></div>
 				</form>
-</center>
+			</center>
 			</div>
 			<!-- 
 		</div>

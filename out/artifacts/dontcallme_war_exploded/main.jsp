@@ -121,6 +121,7 @@
 		</div>
 	</div>
 
+	<!-- 여기 카메라 레이아웃 자바스크립트 191016_3/4 -->
 	<script type="text/javascript">
 		//<![CDATA[
 		function calcHeight(){
@@ -148,7 +149,8 @@
 			<div class="jumbotron">
 					<h3 style="text-align: center;"><%=userID %>의 이지엔 ES100V Mini</h3>
 					<br />
-					<iframe src="http://<%=userIP %>:6611/web/admin.html" id="the_iframe" onload="calcHeight();" name="WrittenPublic" title="게시판뷰" style="overflow-x:hidden; overflow:auto; width:100%; min-height:500px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 scrolling=no vspace=0></iframe>
+				<!-- 태그속성 추가 + 자바스크립트 191016_4/4 -->
+					<iframe src="http://b255fish.dyndns.org:5000/" id="the_iframe" onload="calcHeight();" name="WrittenPublic" title="게시판뷰" style="overflow-x:hidden; overflow:auto; width:100%; min-height:500px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 scrolling=no vspace=0></iframe>
 			</div>
 		</div>	
 	</div>

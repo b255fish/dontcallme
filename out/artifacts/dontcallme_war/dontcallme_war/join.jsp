@@ -52,6 +52,7 @@
 		</div>
 	</nav>
 
+	<!-- 이거 추가함 191016_2/3 -->
 	<div class="container">
 		<div class="jumbotron">
 			<div class="container">

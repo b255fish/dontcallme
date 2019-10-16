@@ -164,7 +164,7 @@
             <br/>
             <br/>
 
-        <!-- 여기 순서 대략 바꿈 191016_1/4 -->
+        <!-- 여기 순서 대략 바꿈 191016_1/3 -->
             <div class="row" style="text-align:center;">
                 <div class="col-md-4 col-lg-4">
                     <div class="jumbotron" style="padding: 30px;">
