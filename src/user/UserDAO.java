@@ -23,11 +23,10 @@ public class UserDAO { //DB와 1대1로 연동되어 DB에 데이터를 기록�
             pstmt.setString(1, userID);
             pstmt.setString(2, userIP);
             ResultSet rs = pstmt.executeQuery();
-            if(rs.next()) {
-                if(rs.getString(1).contentEquals(userPassword)) {
+            if (rs.next()) {
+                if (rs.getString(1).contentEquals(userPassword)) {
                     return 1; //로그인 성공
-                }
-                else {
+                } else {
                     return 0; //비밀번호 틀림
                 }
             }

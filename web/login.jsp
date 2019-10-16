@@ -49,11 +49,11 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="mainAction.jsp">IoT SSS</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top-menu"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            aria-controls="top-menu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse" id="top-menu">
         <ul class="navbar-nav">
             <li class="nav-item active">
                 <a class="nav-link" href="mainAction.jsp">스트리밍 서비스 </a>
@@ -62,15 +62,15 @@
                 <a class="nav-link" href="info.jsp">대시보드<span class="sr-only">(current)</span></a>
             </li>
         </ul>
-        <ul class="nav-item dropdown ml-auto">
-            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-               aria-expanded="false">
-                접속하기<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item active" href="login.jsp">로그인</a></li>
-                <li><a class="dropdown-item" href="join.jsp">회원가입</a></li>
-            </ul>
-        </ul>
+    </div>
+    <div class="nav-item dropdown ml-auto">
+        <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+           aria-expanded="false">
+            접속하기<span class="caret"></span></a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item active" href="login.jsp">로그인</a>
+            <a class="dropdown-item" href="join.jsp">회원가입</a>
+        </div>
     </div>
 </nav>
 

@@ -67,55 +67,34 @@
 
 %>
 
-<nav class="navbar navbar-light">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed"
-                data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                aria-expanded="false">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="mainAction.jsp">IoT SSS</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="mainAction.jsp">IoT SSS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#top-menu"
+            aria-controls="top-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="top-menu">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="mainAction.jsp">스트리밍 서비스 </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="info.jsp">대시보드<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
     </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="mainAction.jsp">스트리밍 서비스</a></li>
-            <li><a href="info.jsp">대시보드</a></li>
-        </ul>
-        <%
-            if (userID == null) {
-        %>
-        <ul class="nav navbar-nav ml-auto">
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle"
-                   data-toggle="dropdown" role="button" aria-haspopup="true"
-                   aria-expanded="false">접속하기<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="login.jsp">로그인</a></li>
-                    <li><a href="join.jsp">회원가입</a></li>
-                </ul>
-            </li>
-        </ul>
-        <%
-        } else {
-        %>
-        <ul class="nav navbar-nav ml-auto">
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle"
-                   data-toggle="dropdown" role="button" aria-haspopup="true"
-                   aria-expanded="false">회원관리<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                    <li><a href="logoutAction.jsp">로그아웃</a></li>
-                    <li><a onclick="return confirm('정말로 탈퇴하시겠습니까?')" href="removeAction.jsp">회원탈퇴</a></li>
-                </ul>
-            </li>
-        </ul>
-        <%
-            }
-        %>
+    <div class="nav-item dropdown ml-auto">
+        <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+           aria-expanded="false">
+            회원관리<span class="caret"></span></a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item active" href="logoutAction.jsp">로그아웃</a>
+            <a class="dropdown-item" onclick="return confirm('정말로 탈퇴하시겠습니까?')" href="removeAction.jsp">회원탈퇴</a>
+        </div>
     </div>
 </nav>
+
 <div class="container" style=width:1380px;>
     <div class="jumbotron">
         <div class="container">

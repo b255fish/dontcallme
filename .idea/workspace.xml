@@ -6,144 +6,78 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8bbd383-519d-43ed-8f84-2c3c49227398" name="Default Changelist" comment="">
+    <list default="true" id="f8bbd383-519d-43ed-8f84-2c3c49227398" name="Default Changelist" comment="Front-end version update">
+      <change afterPath="$PROJECT_DIR$/tomcat/logs/host-manager.2019-10-16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/logs/localhost.2019-10-16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/logs/manager.2019-10-16.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/To do.txt" beforeDir="false" afterPath="$PROJECT_DIR$/To do.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/auto.cnf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/binlog.000001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/binlog.000002" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/binlog.000003" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/binlog.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/ca-key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/ca.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/client-cert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/client-key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/dontcallme/CCTV.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/ib_buffer_pool" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/ib_logfile0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/ib_logfile1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/ibdata1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/mysql.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/mysql/general_log.CSM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/mysql/general_log.CSV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/mysql/general_log_201.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/mysql/slow_log.CSM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/mysql/slow_log.CSV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/mysql/slow_log_202.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/accounts_138.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/cond_instances_77.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/data_lock_waits_154.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/data_locks_153.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_errors_su_132.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_errors_su_133.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_errors_su_134.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_errors_su_135.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_errors_su_136.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_stages_cu_104.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_stages_hi_105.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_stages_hi_106.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_stages_su_107.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_stages_su_108.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_stages_su_109.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_stages_su_110.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_stages_su_111.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_statement_112.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_statement_113.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_statement_114.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_statement_115.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_statement_116.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_statement_117.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_statement_118.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_statement_119.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_statement_120.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_statement_121.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_statement_122.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_statement_123.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_transacti_124.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_transacti_125.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_transacti_126.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_transacti_127.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_transacti_128.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_transacti_129.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_transacti_130.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_transacti_131.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_waits_cur_78.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_waits_his_79.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_waits_his_80.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_waits_sum_81.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_waits_sum_82.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_waits_sum_83.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_waits_sum_84.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_waits_sum_85.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/events_waits_sum_86.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/file_instances_87.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/file_summary_by__88.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/file_summary_by__89.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/global_status_172.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/global_variables_175.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/host_cache_90.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/hosts_139.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/keyring_keys_145.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/log_status_165.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/memory_summary_b_147.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/memory_summary_b_148.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/memory_summary_b_149.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/memory_summary_b_150.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/memory_summary_g_146.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/metadata_locks_152.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/mutex_instances_91.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/objects_summary__92.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/performance_time_93.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/persisted_variab_178.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/prepared_stateme_166.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/replication_appl_158.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/replication_appl_159.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/replication_appl_160.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/replication_appl_161.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/replication_appl_163.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/replication_appl_164.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/replication_conn_155.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/replication_conn_157.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/replication_grou_156.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/replication_grou_162.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/rwlock_instances_94.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/session_account__144.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/session_connect__143.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/session_status_173.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/session_variable_176.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/setup_actors_95.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/setup_consumers_96.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/setup_instrument_97.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/setup_objects_98.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/setup_threads_99.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/socket_instances_140.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/socket_summary_b_141.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/socket_summary_b_142.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/status_by_accoun_168.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/status_by_host_169.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/status_by_thread_170.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/status_by_user_171.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/table_handles_151.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/table_io_waits_s_100.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/table_io_waits_s_101.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/table_lock_waits_102.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/threads_103.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/user_defined_fun_179.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/user_variables_b_167.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/users_137.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/variables_by_thr_174.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/performance_schema/variables_info_177.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/private_key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/public_key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/server-cert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/server-key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/sys/sys_config.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/undo_001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/lib/mysql/undo_002" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/var/log/mysql_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/var/log/mysql_error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/var/log/mysql_general.log" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/var/log/mysql_general.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/var/log/mysql_slow.log" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/var/log/mysql_slow.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notice.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/user/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/AESDec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/AESDec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/emailCheckAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/emailCheckAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/emailSendAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/emailSendAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/emailSendConfirm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/emailSendConfirm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/join.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/loginAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/loginAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/logoutAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/logoutAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/mainAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/mainAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/removeAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/removeAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/user/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/util/AESDec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/util/AESDec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/emailCheckAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/emailCheckAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/emailSendAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/emailSendAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/emailSendConfirm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/emailSendConfirm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/join.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/loginAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/loginAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/logoutAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/logoutAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/mainAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/mainAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/removeAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/removeAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dontcallme/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dontcallme/user/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dontcallme/util/AESDec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dontcallme/util/AESDec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/AESDec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/AESDec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Gmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Gmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-15.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-16.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-15.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-15.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-16.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/join.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,30 +96,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="dontcallme@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="dontcallme@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="dontcallme@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="dontcallme: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="dontcallme@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="dontcallme: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="CCTV: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FavoritesManager">
@@ -216,10 +127,10 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.16699219" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -250,7 +161,9 @@
           <option name="sourceFilePath" value="docker-compose.yml" />
         </settings>
       </deployment>
-      <method v="2" />
+      <method v="2">
+        <option name="LaunchBrowser.Before.Run" url="http://localhost:8081/dontcallme_war/login.jsp" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
@@ -266,6 +179,23 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceNode@22453d01" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@22453d01" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3a7e7579" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@22453d01" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3a7e7579" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@70df263c" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@22453d01" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3a7e7579" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7e666480" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -295,7 +225,7 @@
       <workItem from="1571055180121" duration="640000" />
       <workItem from="1571070035451" duration="30529000" />
       <workItem from="1571165886466" duration="2649000" />
-      <workItem from="1571168938231" duration="7456000" />
+      <workItem from="1571168938231" duration="18906000" />
     </task>
     <servers />
   </component>
@@ -317,5 +247,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Front-end version update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Front-end version update" />
   </component>
 </project>
