@@ -1,0 +1,18 @@
+CREATE DATABASE IF NOT EXISTS dontcallme;
+use dontcallme;
+
+CREATE TABLE IF NOT EXISTS cctv (
+  userID            varchar(20) NOT NULL  PRIMARY KEY,
+  userPassword      varchar(64) NOT NULL,
+  userName          varchar(20) NOT NULL,
+  userGender        varchar(20) NOT NULL,
+  userEmail         varchar(50) NOT NULL,
+  userEmailHash     varchar(64) NOT NULL,
+  userEmailChecked  tinyint(1)  NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+LOCK TABLES cctv WRITE;
+INSERT INTO `cctv` (`userID`, `userPassword`, `userName`, `userGender`, `userEmail`, `userEmailHash`, `userEmailChecked`) VALUES
+('asdf', 'asdf', 'asdf', 'ff', 'ff', 'a', 1);
+UNLOCK TABLES;
