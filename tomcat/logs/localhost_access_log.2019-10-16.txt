@@ -1,0 +1,2 @@
+192.168.48.1 - - [16/Oct/2019:00:03:59 +0000] "GET /dontcallme_war/login.jsp HTTP/1.1" 200 4103
+192.168.48.1 - - [16/Oct/2019:00:03:59 +0000] "GET /dontcallme_war/js/jquery-3.4.1.min.js HTTP/1.1" 304 -

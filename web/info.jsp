@@ -15,7 +15,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-4.3.1.min.css">
     <link rel="stylesheet" href="css/custom.css">
     <title>캡스톤디자인프로젝트</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -73,8 +73,6 @@
     }
 
 
-
-
     try (Connection conn = DatabaseUtil.getDataSource().getConnection()) {
         String sql1 = "select * from CCTV where userID = ?";
         PreparedStatement pstmt = conn.prepareStatement(sql1);
@@ -100,9 +98,9 @@
 
 
 %>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-light">
     <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed"
+        <button type="button" class="navbar-toggler collapsed"
                 data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
                 aria-expanded="false">
             <span class="icon-bar"></span>
@@ -119,7 +117,7 @@
         <%
             if (userID == null) {
         %>
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav ml-auto">
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle"
                    data-toggle="dropdown" role="button" aria-haspopup="true"
@@ -133,7 +131,7 @@
         <%
         } else {
         %>
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav ml-auto">
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle"
                    data-toggle="dropdown" role="button" aria-haspopup="true"
@@ -224,8 +222,8 @@
         </div>
     </div>
 </div>
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="js/bootstrap.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap-4.3.1.min.js"></script>
 </body>
 </html>
 
