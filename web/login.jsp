@@ -104,7 +104,7 @@ function FormSubmit() { if (grecaptcha.getResponse() == "")
 					<div id="html_element" class="g-recaptcha" data-sitekey="6LfcBroUAAAAAMq9QgxvgprKBVxV15KZHIhsQM73"
 					style="margin:0 auto;"></div>
 				</form>
-</center>
+			</center>
 			</div>
 			<!-- 
 		</div>
