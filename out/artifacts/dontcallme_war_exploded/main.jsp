@@ -175,19 +175,22 @@
 				<h4 style="text-align: center;"><%=userIP1 %>의 카메라1</h4>
 				<br />
 				<br />
-				<iframe src="http://<%=userIP1 %>:6611/web/admin.html" width=1230px height=800px frameborder=0 framespacing=0 marginheight=0 marginwidth=0 scrolling=no vspace=0></iframe>
+				<iframe src="http://<%=userIP1 %>:6611/web/admin.html"  style="  display: block; margin-right: auto; margin-left: auto; overflow-x:hidden; overflow:auto; width:380px; height:300px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 vspace=0></iframe>
+
 
 				<br />
 				<h4 style="text-align: center;"><%=userIP2 %>의 카메라2</h4>
 				<br />
 				<br />
-				<iframe src="http://<%=userIP2 %>:6611/web/admin.html" width=1230px height=800px frameborder=0 framespacing=0 marginheight=0 marginwidth=0 scrolling=no vspace=0></iframe>
+				<iframe src="http://<%=userIP2 %>:6611/web/admin.html"  style="  display: block; margin-right: auto; margin-left: auto; overflow-x:hidden; overflow:auto; width:380px; height:300px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 vspace=0></iframe>
+
 
 				<br />
 				<h4 style="text-align: center;"><%=userIP3 %>의 카메라3</h4>
 				<br />
 				<br />
-				<iframe src="http://<%=userIP3 %>:6611/web/admin.html" width=1230px height=800px frameborder=0 framespacing=0 marginheight=0 marginwidth=0 scrolling=no vspace=0></iframe>
+				<iframe src="http://<%=userIP3 %>:6611/web/admin.html"  style="  display: block; margin-right: auto; margin-left: auto; overflow-x:hidden; overflow:auto; width:380px; height:300px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 vspace=0></iframe>
+
 				<br />
 			</div>
 
