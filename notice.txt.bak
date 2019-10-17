@@ -1,0 +1,34 @@
+_init
+  Reserve port in PowerShell
+    netsh interface ipv4 show excludedportrange protocol=tcp
+    dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
+    netsh int ipv4 add excludedportrange protocol=tcp startport=2375 numberofports=1
+    dism.exe /Online /Enable-Feature:Microsoft-Hyper-V /All
+    //
+    Docker setting
+      TLS 2375
+      Shared Drive that includes Porject Folder
+
+
+docker-compose.yml
+  - 윈도우 서비스에 해당 포트로 실행중이거나, 중지되어있어도 프로그램은 존재하지 않지만 서비스에 남아있는 경우 사용이불 가능 능할 수 있다.
+    regedit - HKEY_LOCAL_MACIHNE\SYSTEM\CurrentControlSet\Services\<Service Name> delete
+  - 예약된 포트도 사용중이라면(?) 이용할 수 없다.
+    netsh interface ipv4 show excludedportrange protocol=tcp
+
+IntelliJ
+  Database 연결 시, localhost 로 연결해야 한다. 현재 개발은 IDE (localhost)에서 진행하기 때문.
+    jdbc:mysql://localhost:3306/dontcallme, not jdbc:mysql://mysql:3306/dontcallme
+    - 이 때는 컨테이너간 통신이 아니며, 로컬호스트와 컨테이너의 통신이다.
+
+ .jsp
+    - 테스트용
+        <%= 웹에 출력할 자바 식 %>
+            Ex. <%=System.getProperty("java.version")%>
+        javascript aert 로 출력
+            PrintWriter script = response.getWriter();
+            script.println("<script>");
+            script.println("alert('오류가 발생했습니다..');");
+            script.println("history.back()");
+            script.println("</script>");
+            script.close();

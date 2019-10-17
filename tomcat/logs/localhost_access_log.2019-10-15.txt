@@ -1,0 +1,8 @@
+192.168.32.1 - - [15/Oct/2019:21:45:00 +0000] "GET / HTTP/1.1" 404 1119
+192.168.32.1 - - [15/Oct/2019:21:45:06 +0000] "GET /dontcallme_war/login.jsp HTTP/1.1" 200 3392
+192.168.32.1 - - [15/Oct/2019:21:45:06 +0000] "GET /dontcallme_war/js/bootstrap.js HTTP/1.1" 200 69707
+192.168.32.1 - - [15/Oct/2019:21:45:06 +0000] "GET /dontcallme_war/css/custom.css HTTP/1.1" 200 1054
+192.168.32.1 - - [15/Oct/2019:21:45:06 +0000] "GET /dontcallme_war/css/bootstrap.css HTTP/1.1" 200 145981
+192.168.32.1 - - [15/Oct/2019:21:45:06 +0000] "GET /dontcallme_war/images/cctv.jpg HTTP/1.1" 200 937043
+192.168.32.1 - - [15/Oct/2019:21:46:19 +0000] "POST /dontcallme_war/loginAction.jsp HTTP/1.1" 200 506
+192.168.32.1 - - [15/Oct/2019:21:46:20 +0000] "GET /dontcallme_war/main.jsp HTTP/1.1" 200 2610

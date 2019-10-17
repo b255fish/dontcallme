@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dontcallme:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/dontcallme_war</output-path>
+    <root id="archive" name="dontcallme_war.war">
+      <element id="artifact" artifact-name="dontcallme:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-pool2-2.7.0" />
+          <element id="library" level="project" name="commons-logging-1.2" />
+          <element id="library" level="project" name="jakarta.activation-1.2.1" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.18" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

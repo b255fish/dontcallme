@@ -1,0 +1,1526 @@
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2019-10-15T21:09:03.062388Z
+# User@Host: root[root] @  [192.168.16.3]  Id:     8
+# Query_time: 0.004866  Lock_time: 0.001886 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571173743;
+SELECT /*+ MAX_EXECUTION_TIME(2000) */  SCHEMA_NAME FROM information_schema.SCHEMATA ORDER BY SCHEMA_NAME;
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2019-10-15T21:44:55.521234Z
+# User@Host: root[root] @  [192.168.32.3]  Id:     9
+# Query_time: 0.005194  Lock_time: 0.002692 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571175895;
+SELECT /*+ MAX_EXECUTION_TIME(2000) */  SCHEMA_NAME FROM information_schema.SCHEMATA ORDER BY SCHEMA_NAME;
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2019-10-17T12:36:13.604013Z
+# User@Host: root[root] @  [172.18.0.3]  Id:     8
+# Query_time: 0.001550  Lock_time: 0.000989 Rows_sent: 2  Rows_examined: 2
+use dontcallme;
+SET timestamp=1571315773;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T12:36:13.634974Z
+# User@Host: root[root] @  [172.18.0.3]  Id:     8
+# Query_time: 0.002574  Lock_time: 0.001742 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571315773;
+SELECT /*+ MAX_EXECUTION_TIME(2000) */  SCHEMA_NAME FROM information_schema.SCHEMATA ORDER BY SCHEMA_NAME;
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2019-10-17T13:52:28.196390Z
+# User@Host: root[root] @  [172.19.0.3]  Id:     8
+# Query_time: 0.004647  Lock_time: 0.001730 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320348;
+SELECT /*+ MAX_EXECUTION_TIME(2000) */  SCHEMA_NAME FROM information_schema.SCHEMATA ORDER BY SCHEMA_NAME;
+# Time: 2019-10-17T13:52:47.297970Z
+# User@Host: root[root] @  [172.19.0.3]  Id:    12
+# Query_time: 0.000536  Lock_time: 0.000152 Rows_sent: 1  Rows_examined: 1
+use dontcallme;
+SET timestamp=1571320367;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T13:56:46.578370Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    16
+# Query_time: 0.000633  Lock_time: 0.000330 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320606;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:56:46.623087Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    16
+# Query_time: 0.001726  Lock_time: 0.000435 Rows_sent: 272  Rows_examined: 313
+SET timestamp=1571320606;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select collation_name, character_set_name,
+          is_default collate utf8_general_ci = 'Yes' as is_default
+        from information_schema.collations;
+# Time: 2019-10-17T13:56:46.736982Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    16
+# Query_time: 0.000510  Lock_time: 0.000263 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320606;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:56:46.833473Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    16
+# Query_time: 0.001635  Lock_time: 0.000206 Rows_sent: 0  Rows_examined: 415
+SET timestamp=1571320606;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          table_name,
+          index_name,
+          index_comment,
+          index_type,
+          non_unique,
+          column_name,
+          collation
+        from information_schema.statistics
+        where table_schema = 'dontcallme' and
+              index_schema = 'dontcallme' and
+              index_name collate utf8_general_ci <> 'PRIMARY'
+        order by
+          index_schema,
+          index_name,
+          seq_in_index;
+# Time: 2019-10-17T13:56:46.860731Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    16
+# Query_time: 0.003342  Lock_time: 0.000241 Rows_sent: 1  Rows_examined: 994
+SET timestamp=1571320606;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        c.constraint_name,
+        c.table_name,
+        c.constraint_type,
+        r.match_option,
+        r.update_rule,
+        r.delete_rule
+      from information_schema.table_constraints c
+        left join information_schema.referential_constraints r on
+            r.constraint_schema   = c.constraint_schema
+        and r.constraint_name     = c.constraint_name
+      where c.table_schema = 'dontcallme';
+# Time: 2019-10-17T13:56:46.897312Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    16
+# Query_time: 0.008272  Lock_time: 0.000247 Rows_sent: 1  Rows_examined: 3658
+SET timestamp=1571320606;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        constraint_name,
+        table_name,
+        column_name,
+        referenced_table_schema,
+        referenced_table_name,
+        referenced_column_name
+      from information_schema.key_column_usage
+      where table_schema = 'dontcallme'
+      order by
+          table_name
+        , constraint_name
+        , ordinal_position;
+# Time: 2019-10-17T13:56:46.922044Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    16
+# Query_time: 0.000806  Lock_time: 0.000474 Rows_sent: 0  Rows_examined: 14
+SET timestamp=1571320606;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          trigger_name,
+          event_object_table,
+          event_manipulation,
+          action_timing,
+          definer
+        from information_schema.triggers
+        where trigger_schema = 'dontcallme';
+# Time: 2019-10-17T13:56:46.943332Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    16
+# Query_time: 0.000640  Lock_time: 0.000394 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1571320606;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          event_name,
+          event_comment,
+          definer,
+          event_type = 'RECURRING' recurring,
+          interval_value,
+          interval_field,
+          cast(coalesce(starts, execute_at) as char) starts,
+          cast(ends as char) ends,
+          status,
+          on_completion = 'PRESERVE' preserve,
+          last_executed
+        from information_schema.events
+        where event_schema = 'dontcallme';
+# Time: 2019-10-17T13:56:47.084959Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    16
+# Query_time: 0.000807  Lock_time: 0.000378 Rows_sent: 0  Rows_examined: 14
+SET timestamp=1571320607;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          trigger_name,
+          event_object_table,
+          action_statement
+        from information_schema.triggers
+        where trigger_schema = 'dontcallme';
+# Time: 2019-10-17T13:56:47.103259Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    16
+# Query_time: 0.000683  Lock_time: 0.000436 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1571320607;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          event_name,
+          event_definition
+        from information_schema.events
+        where event_schema = 'dontcallme';
+# Time: 2019-10-17T13:56:55.853720Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    17
+# Query_time: 0.000627  Lock_time: 0.000305 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320615;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:56:55.875630Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    17
+# Query_time: 0.001595  Lock_time: 0.000334 Rows_sent: 272  Rows_examined: 313
+SET timestamp=1571320615;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select collation_name, character_set_name,
+          is_default collate utf8_general_ci = 'Yes' as is_default
+        from information_schema.collations;
+# Time: 2019-10-17T13:56:55.954991Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    17
+# Query_time: 0.000855  Lock_time: 0.000449 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320615;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:56:56.009037Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    17
+# Query_time: 0.001215  Lock_time: 0.000528 Rows_sent: 0  Rows_examined: 415
+SET timestamp=1571320616;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          table_name,
+          index_name,
+          index_comment,
+          index_type,
+          non_unique,
+          column_name,
+          collation
+        from information_schema.statistics
+        where table_schema = 'dontcallme' and
+              index_schema = 'dontcallme' and
+              index_name collate utf8_general_ci <> 'PRIMARY'
+        order by
+          index_schema,
+          index_name,
+          seq_in_index;
+# Time: 2019-10-17T13:56:56.025669Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    17
+# Query_time: 0.002687  Lock_time: 0.001148 Rows_sent: 1  Rows_examined: 994
+SET timestamp=1571320616;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        c.constraint_name,
+        c.table_name,
+        c.constraint_type,
+        r.match_option,
+        r.update_rule,
+        r.delete_rule
+      from information_schema.table_constraints c
+        left join information_schema.referential_constraints r on
+            r.constraint_schema   = c.constraint_schema
+        and r.constraint_name     = c.constraint_name
+      where c.table_schema = 'dontcallme';
+# Time: 2019-10-17T13:56:56.048327Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    17
+# Query_time: 0.007576  Lock_time: 0.000610 Rows_sent: 1  Rows_examined: 3658
+SET timestamp=1571320616;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        constraint_name,
+        table_name,
+        column_name,
+        referenced_table_schema,
+        referenced_table_name,
+        referenced_column_name
+      from information_schema.key_column_usage
+      where table_schema = 'dontcallme'
+      order by
+          table_name
+        , constraint_name
+        , ordinal_position;
+# Time: 2019-10-17T13:56:56.065775Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    17
+# Query_time: 0.000896  Lock_time: 0.000499 Rows_sent: 0  Rows_examined: 14
+SET timestamp=1571320616;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          trigger_name,
+          event_object_table,
+          event_manipulation,
+          action_timing,
+          definer
+        from information_schema.triggers
+        where trigger_schema = 'dontcallme';
+# Time: 2019-10-17T13:56:56.080158Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    17
+# Query_time: 0.000654  Lock_time: 0.000473 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1571320616;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          event_name,
+          event_comment,
+          definer,
+          event_type = 'RECURRING' recurring,
+          interval_value,
+          interval_field,
+          cast(coalesce(starts, execute_at) as char) starts,
+          cast(ends as char) ends,
+          status,
+          on_completion = 'PRESERVE' preserve,
+          last_executed
+        from information_schema.events
+        where event_schema = 'dontcallme';
+# Time: 2019-10-17T13:56:56.153803Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    17
+# Query_time: 0.000734  Lock_time: 0.000363 Rows_sent: 0  Rows_examined: 14
+SET timestamp=1571320616;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          trigger_name,
+          event_object_table,
+          action_statement
+        from information_schema.triggers
+        where trigger_schema = 'dontcallme';
+# Time: 2019-10-17T13:56:56.169192Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    17
+# Query_time: 0.000550  Lock_time: 0.000321 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1571320616;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          event_name,
+          event_definition
+        from information_schema.events
+        where event_schema = 'dontcallme';
+# Time: 2019-10-17T13:56:58.111525Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    18
+# Query_time: 0.000665  Lock_time: 0.000363 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320618;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:56:58.137741Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    18
+# Query_time: 0.002552  Lock_time: 0.000489 Rows_sent: 272  Rows_examined: 313
+SET timestamp=1571320618;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select collation_name, character_set_name,
+          is_default collate utf8_general_ci = 'Yes' as is_default
+        from information_schema.collations;
+# Time: 2019-10-17T13:56:58.206513Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    18
+# Query_time: 0.000716  Lock_time: 0.000371 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320618;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:56:58.276824Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    18
+# Query_time: 0.001689  Lock_time: 0.000764 Rows_sent: 0  Rows_examined: 415
+SET timestamp=1571320618;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          table_name,
+          index_name,
+          index_comment,
+          index_type,
+          non_unique,
+          column_name,
+          collation
+        from information_schema.statistics
+        where table_schema = 'dontcallme' and
+              index_schema = 'dontcallme' and
+              index_name collate utf8_general_ci <> 'PRIMARY'
+        order by
+          index_schema,
+          index_name,
+          seq_in_index;
+# Time: 2019-10-17T13:56:58.295804Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    18
+# Query_time: 0.002449  Lock_time: 0.001052 Rows_sent: 1  Rows_examined: 994
+SET timestamp=1571320618;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        c.constraint_name,
+        c.table_name,
+        c.constraint_type,
+        r.match_option,
+        r.update_rule,
+        r.delete_rule
+      from information_schema.table_constraints c
+        left join information_schema.referential_constraints r on
+            r.constraint_schema   = c.constraint_schema
+        and r.constraint_name     = c.constraint_name
+      where c.table_schema = 'dontcallme';
+# Time: 2019-10-17T13:56:58.322377Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    18
+# Query_time: 0.008331  Lock_time: 0.001188 Rows_sent: 1  Rows_examined: 3658
+SET timestamp=1571320618;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        constraint_name,
+        table_name,
+        column_name,
+        referenced_table_schema,
+        referenced_table_name,
+        referenced_column_name
+      from information_schema.key_column_usage
+      where table_schema = 'dontcallme'
+      order by
+          table_name
+        , constraint_name
+        , ordinal_position;
+# Time: 2019-10-17T13:56:58.616364Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    19
+# Query_time: 0.001111  Lock_time: 0.000712 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320618;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:56:58.640654Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    19
+# Query_time: 0.001688  Lock_time: 0.000316 Rows_sent: 272  Rows_examined: 313
+SET timestamp=1571320618;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select collation_name, character_set_name,
+          is_default collate utf8_general_ci = 'Yes' as is_default
+        from information_schema.collations;
+# Time: 2019-10-17T13:56:58.723629Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    19
+# Query_time: 0.000735  Lock_time: 0.000365 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320618;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:56:59.057281Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    20
+# Query_time: 0.000752  Lock_time: 0.000354 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320619;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:56:59.076819Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    20
+# Query_time: 0.001678  Lock_time: 0.000339 Rows_sent: 272  Rows_examined: 313
+SET timestamp=1571320619;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select collation_name, character_set_name,
+          is_default collate utf8_general_ci = 'Yes' as is_default
+        from information_schema.collations;
+# Time: 2019-10-17T13:56:59.148712Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    20
+# Query_time: 0.001461  Lock_time: 0.000577 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320619;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:56:59.209355Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    20
+# Query_time: 0.002376  Lock_time: 0.001005 Rows_sent: 0  Rows_examined: 415
+SET timestamp=1571320619;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          table_name,
+          index_name,
+          index_comment,
+          index_type,
+          non_unique,
+          column_name,
+          collation
+        from information_schema.statistics
+        where table_schema = 'dontcallme' and
+              index_schema = 'dontcallme' and
+              index_name collate utf8_general_ci <> 'PRIMARY'
+        order by
+          index_schema,
+          index_name,
+          seq_in_index;
+# Time: 2019-10-17T13:56:59.229874Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    20
+# Query_time: 0.003418  Lock_time: 0.001405 Rows_sent: 1  Rows_examined: 994
+SET timestamp=1571320619;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        c.constraint_name,
+        c.table_name,
+        c.constraint_type,
+        r.match_option,
+        r.update_rule,
+        r.delete_rule
+      from information_schema.table_constraints c
+        left join information_schema.referential_constraints r on
+            r.constraint_schema   = c.constraint_schema
+        and r.constraint_name     = c.constraint_name
+      where c.table_schema = 'dontcallme';
+# Time: 2019-10-17T13:56:59.253862Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    20
+# Query_time: 0.008356  Lock_time: 0.000727 Rows_sent: 1  Rows_examined: 3658
+SET timestamp=1571320619;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        constraint_name,
+        table_name,
+        column_name,
+        referenced_table_schema,
+        referenced_table_name,
+        referenced_column_name
+      from information_schema.key_column_usage
+      where table_schema = 'dontcallme'
+      order by
+          table_name
+        , constraint_name
+        , ordinal_position;
+# Time: 2019-10-17T13:56:59.267248Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    20
+# Query_time: 0.000874  Lock_time: 0.000501 Rows_sent: 0  Rows_examined: 14
+SET timestamp=1571320619;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          trigger_name,
+          event_object_table,
+          event_manipulation,
+          action_timing,
+          definer
+        from information_schema.triggers
+        where trigger_schema = 'dontcallme';
+# Time: 2019-10-17T13:56:59.282729Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    20
+# Query_time: 0.002082  Lock_time: 0.001312 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1571320619;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          event_name,
+          event_comment,
+          definer,
+          event_type = 'RECURRING' recurring,
+          interval_value,
+          interval_field,
+          cast(coalesce(starts, execute_at) as char) starts,
+          cast(ends as char) ends,
+          status,
+          on_completion = 'PRESERVE' preserve,
+          last_executed
+        from information_schema.events
+        where event_schema = 'dontcallme';
+# Time: 2019-10-17T13:56:59.382615Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    20
+# Query_time: 0.001523  Lock_time: 0.000571 Rows_sent: 0  Rows_examined: 14
+SET timestamp=1571320619;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          trigger_name,
+          event_object_table,
+          action_statement
+        from information_schema.triggers
+        where trigger_schema = 'dontcallme';
+# Time: 2019-10-17T13:56:59.396318Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    20
+# Query_time: 0.000741  Lock_time: 0.000472 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1571320619;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          event_name,
+          event_definition
+        from information_schema.events
+        where event_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:05.227524Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    21
+# Query_time: 0.000590  Lock_time: 0.000332 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320625;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:57:05.249628Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    21
+# Query_time: 0.001563  Lock_time: 0.000274 Rows_sent: 272  Rows_examined: 313
+SET timestamp=1571320625;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select collation_name, character_set_name,
+          is_default collate utf8_general_ci = 'Yes' as is_default
+        from information_schema.collations;
+# Time: 2019-10-17T13:57:05.321244Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    21
+# Query_time: 0.000819  Lock_time: 0.000357 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320625;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:57:05.376015Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    21
+# Query_time: 0.001310  Lock_time: 0.000612 Rows_sent: 0  Rows_examined: 415
+SET timestamp=1571320625;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          table_name,
+          index_name,
+          index_comment,
+          index_type,
+          non_unique,
+          column_name,
+          collation
+        from information_schema.statistics
+        where table_schema = 'dontcallme' and
+              index_schema = 'dontcallme' and
+              index_name collate utf8_general_ci <> 'PRIMARY'
+        order by
+          index_schema,
+          index_name,
+          seq_in_index;
+# Time: 2019-10-17T13:57:05.391215Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    21
+# Query_time: 0.002661  Lock_time: 0.001185 Rows_sent: 1  Rows_examined: 994
+SET timestamp=1571320625;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        c.constraint_name,
+        c.table_name,
+        c.constraint_type,
+        r.match_option,
+        r.update_rule,
+        r.delete_rule
+      from information_schema.table_constraints c
+        left join information_schema.referential_constraints r on
+            r.constraint_schema   = c.constraint_schema
+        and r.constraint_name     = c.constraint_name
+      where c.table_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:05.410584Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    21
+# Query_time: 0.007362  Lock_time: 0.000554 Rows_sent: 1  Rows_examined: 3658
+SET timestamp=1571320625;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        constraint_name,
+        table_name,
+        column_name,
+        referenced_table_schema,
+        referenced_table_name,
+        referenced_column_name
+      from information_schema.key_column_usage
+      where table_schema = 'dontcallme'
+      order by
+          table_name
+        , constraint_name
+        , ordinal_position;
+# Time: 2019-10-17T13:57:05.424034Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    21
+# Query_time: 0.000788  Lock_time: 0.000461 Rows_sent: 0  Rows_examined: 14
+SET timestamp=1571320625;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          trigger_name,
+          event_object_table,
+          event_manipulation,
+          action_timing,
+          definer
+        from information_schema.triggers
+        where trigger_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:05.435849Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    21
+# Query_time: 0.000619  Lock_time: 0.000428 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1571320625;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          event_name,
+          event_comment,
+          definer,
+          event_type = 'RECURRING' recurring,
+          interval_value,
+          interval_field,
+          cast(coalesce(starts, execute_at) as char) starts,
+          cast(ends as char) ends,
+          status,
+          on_completion = 'PRESERVE' preserve,
+          last_executed
+        from information_schema.events
+        where event_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:05.501752Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    21
+# Query_time: 0.001072  Lock_time: 0.000507 Rows_sent: 0  Rows_examined: 14
+SET timestamp=1571320625;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          trigger_name,
+          event_object_table,
+          action_statement
+        from information_schema.triggers
+        where trigger_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:05.515892Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    21
+# Query_time: 0.000745  Lock_time: 0.000425 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1571320625;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          event_name,
+          event_definition
+        from information_schema.events
+        where event_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:06.030721Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    22
+# Query_time: 0.000602  Lock_time: 0.000302 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320626;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:57:06.048806Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    22
+# Query_time: 0.001402  Lock_time: 0.000267 Rows_sent: 272  Rows_examined: 313
+SET timestamp=1571320626;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select collation_name, character_set_name,
+          is_default collate utf8_general_ci = 'Yes' as is_default
+        from information_schema.collations;
+# Time: 2019-10-17T13:57:06.109768Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    22
+# Query_time: 0.000545  Lock_time: 0.000243 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320626;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:57:06.153848Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    22
+# Query_time: 0.001495  Lock_time: 0.000633 Rows_sent: 0  Rows_examined: 415
+SET timestamp=1571320626;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          table_name,
+          index_name,
+          index_comment,
+          index_type,
+          non_unique,
+          column_name,
+          collation
+        from information_schema.statistics
+        where table_schema = 'dontcallme' and
+              index_schema = 'dontcallme' and
+              index_name collate utf8_general_ci <> 'PRIMARY'
+        order by
+          index_schema,
+          index_name,
+          seq_in_index;
+# Time: 2019-10-17T13:57:06.172357Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    22
+# Query_time: 0.002689  Lock_time: 0.001106 Rows_sent: 1  Rows_examined: 994
+SET timestamp=1571320626;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        c.constraint_name,
+        c.table_name,
+        c.constraint_type,
+        r.match_option,
+        r.update_rule,
+        r.delete_rule
+      from information_schema.table_constraints c
+        left join information_schema.referential_constraints r on
+            r.constraint_schema   = c.constraint_schema
+        and r.constraint_name     = c.constraint_name
+      where c.table_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:06.207858Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    22
+# Query_time: 0.014041  Lock_time: 0.001129 Rows_sent: 1  Rows_examined: 3658
+SET timestamp=1571320626;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        constraint_name,
+        table_name,
+        column_name,
+        referenced_table_schema,
+        referenced_table_name,
+        referenced_column_name
+      from information_schema.key_column_usage
+      where table_schema = 'dontcallme'
+      order by
+          table_name
+        , constraint_name
+        , ordinal_position;
+# Time: 2019-10-17T13:57:06.230433Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    22
+# Query_time: 0.001060  Lock_time: 0.000667 Rows_sent: 0  Rows_examined: 14
+SET timestamp=1571320626;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          trigger_name,
+          event_object_table,
+          event_manipulation,
+          action_timing,
+          definer
+        from information_schema.triggers
+        where trigger_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:06.250829Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    22
+# Query_time: 0.001375  Lock_time: 0.000936 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1571320626;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          event_name,
+          event_comment,
+          definer,
+          event_type = 'RECURRING' recurring,
+          interval_value,
+          interval_field,
+          cast(coalesce(starts, execute_at) as char) starts,
+          cast(ends as char) ends,
+          status,
+          on_completion = 'PRESERVE' preserve,
+          last_executed
+        from information_schema.events
+        where event_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:06.323817Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    22
+# Query_time: 0.000732  Lock_time: 0.000347 Rows_sent: 0  Rows_examined: 14
+SET timestamp=1571320626;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          trigger_name,
+          event_object_table,
+          action_statement
+        from information_schema.triggers
+        where trigger_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:06.343575Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    22
+# Query_time: 0.000707  Lock_time: 0.000424 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1571320626;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          event_name,
+          event_definition
+        from information_schema.events
+        where event_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:08.772740Z
+# User@Host: root[root] @  [172.19.0.3]  Id:    23
+# Query_time: 0.000346  Lock_time: 0.000138 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1571320628;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T13:57:09.502579Z
+# User@Host: root[root] @  [172.19.0.3]  Id:    24
+# Query_time: 0.000308  Lock_time: 0.000108 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1571320629;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T13:57:10.034169Z
+# User@Host: root[root] @  [172.19.0.3]  Id:    25
+# Query_time: 0.000277  Lock_time: 0.000140 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1571320630;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T13:57:22.882043Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    26
+# Query_time: 0.000579  Lock_time: 0.000322 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320642;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:57:22.900606Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    26
+# Query_time: 0.001580  Lock_time: 0.000309 Rows_sent: 272  Rows_examined: 313
+SET timestamp=1571320642;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select collation_name, character_set_name,
+          is_default collate utf8_general_ci = 'Yes' as is_default
+        from information_schema.collations;
+# Time: 2019-10-17T13:57:22.956964Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    26
+# Query_time: 0.000578  Lock_time: 0.000249 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320642;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:57:23.004090Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    26
+# Query_time: 0.001422  Lock_time: 0.000610 Rows_sent: 0  Rows_examined: 415
+SET timestamp=1571320643;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          table_name,
+          index_name,
+          index_comment,
+          index_type,
+          non_unique,
+          column_name,
+          collation
+        from information_schema.statistics
+        where table_schema = 'dontcallme' and
+              index_schema = 'dontcallme' and
+              index_name collate utf8_general_ci <> 'PRIMARY'
+        order by
+          index_schema,
+          index_name,
+          seq_in_index;
+# Time: 2019-10-17T13:57:23.018853Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    26
+# Query_time: 0.002532  Lock_time: 0.001097 Rows_sent: 1  Rows_examined: 994
+SET timestamp=1571320643;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        c.constraint_name,
+        c.table_name,
+        c.constraint_type,
+        r.match_option,
+        r.update_rule,
+        r.delete_rule
+      from information_schema.table_constraints c
+        left join information_schema.referential_constraints r on
+            r.constraint_schema   = c.constraint_schema
+        and r.constraint_name     = c.constraint_name
+      where c.table_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:23.042996Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    26
+# Query_time: 0.011210  Lock_time: 0.000800 Rows_sent: 1  Rows_examined: 3658
+SET timestamp=1571320643;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        constraint_name,
+        table_name,
+        column_name,
+        referenced_table_schema,
+        referenced_table_name,
+        referenced_column_name
+      from information_schema.key_column_usage
+      where table_schema = 'dontcallme'
+      order by
+          table_name
+        , constraint_name
+        , ordinal_position;
+# Time: 2019-10-17T13:57:23.058528Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    26
+# Query_time: 0.000958  Lock_time: 0.000617 Rows_sent: 0  Rows_examined: 14
+SET timestamp=1571320643;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          trigger_name,
+          event_object_table,
+          event_manipulation,
+          action_timing,
+          definer
+        from information_schema.triggers
+        where trigger_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:23.072312Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    26
+# Query_time: 0.000862  Lock_time: 0.000519 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1571320643;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          event_name,
+          event_comment,
+          definer,
+          event_type = 'RECURRING' recurring,
+          interval_value,
+          interval_field,
+          cast(coalesce(starts, execute_at) as char) starts,
+          cast(ends as char) ends,
+          status,
+          on_completion = 'PRESERVE' preserve,
+          last_executed
+        from information_schema.events
+        where event_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:23.138248Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    26
+# Query_time: 0.000584  Lock_time: 0.000317 Rows_sent: 0  Rows_examined: 14
+SET timestamp=1571320643;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          trigger_name,
+          event_object_table,
+          action_statement
+        from information_schema.triggers
+        where trigger_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:23.151971Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    26
+# Query_time: 0.000795  Lock_time: 0.000431 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1571320643;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          event_name,
+          event_definition
+        from information_schema.events
+        where event_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:23.618444Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    27
+# Query_time: 0.000534  Lock_time: 0.000283 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320643;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:57:23.638124Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    27
+# Query_time: 0.001564  Lock_time: 0.000309 Rows_sent: 272  Rows_examined: 313
+SET timestamp=1571320643;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select collation_name, character_set_name,
+          is_default collate utf8_general_ci = 'Yes' as is_default
+        from information_schema.collations;
+# Time: 2019-10-17T13:57:23.689106Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    27
+# Query_time: 0.000593  Lock_time: 0.000246 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571320643;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T13:57:23.728354Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    27
+# Query_time: 0.001213  Lock_time: 0.000534 Rows_sent: 0  Rows_examined: 415
+SET timestamp=1571320643;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          table_name,
+          index_name,
+          index_comment,
+          index_type,
+          non_unique,
+          column_name,
+          collation
+        from information_schema.statistics
+        where table_schema = 'dontcallme' and
+              index_schema = 'dontcallme' and
+              index_name collate utf8_general_ci <> 'PRIMARY'
+        order by
+          index_schema,
+          index_name,
+          seq_in_index;
+# Time: 2019-10-17T13:57:23.742706Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    27
+# Query_time: 0.002291  Lock_time: 0.000964 Rows_sent: 1  Rows_examined: 994
+SET timestamp=1571320643;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        c.constraint_name,
+        c.table_name,
+        c.constraint_type,
+        r.match_option,
+        r.update_rule,
+        r.delete_rule
+      from information_schema.table_constraints c
+        left join information_schema.referential_constraints r on
+            r.constraint_schema   = c.constraint_schema
+        and r.constraint_name     = c.constraint_name
+      where c.table_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:23.766468Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    27
+# Query_time: 0.007607  Lock_time: 0.000448 Rows_sent: 1  Rows_examined: 3658
+SET timestamp=1571320643;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        constraint_name,
+        table_name,
+        column_name,
+        referenced_table_schema,
+        referenced_table_name,
+        referenced_column_name
+      from information_schema.key_column_usage
+      where table_schema = 'dontcallme'
+      order by
+          table_name
+        , constraint_name
+        , ordinal_position;
+# Time: 2019-10-17T13:57:23.781589Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    27
+# Query_time: 0.000567  Lock_time: 0.000300 Rows_sent: 0  Rows_examined: 14
+SET timestamp=1571320643;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          trigger_name,
+          event_object_table,
+          event_manipulation,
+          action_timing,
+          definer
+        from information_schema.triggers
+        where trigger_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:23.793716Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    27
+# Query_time: 0.000587  Lock_time: 0.000390 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1571320643;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          event_name,
+          event_comment,
+          definer,
+          event_type = 'RECURRING' recurring,
+          interval_value,
+          interval_field,
+          cast(coalesce(starts, execute_at) as char) starts,
+          cast(ends as char) ends,
+          status,
+          on_completion = 'PRESERVE' preserve,
+          last_executed
+        from information_schema.events
+        where event_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:23.868799Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    27
+# Query_time: 0.000595  Lock_time: 0.000289 Rows_sent: 0  Rows_examined: 14
+SET timestamp=1571320643;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          trigger_name,
+          event_object_table,
+          action_statement
+        from information_schema.triggers
+        where trigger_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:23.883316Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    27
+# Query_time: 0.000681  Lock_time: 0.000432 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1571320643;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          event_name,
+          event_definition
+        from information_schema.events
+        where event_schema = 'dontcallme';
+# Time: 2019-10-17T13:57:32.330313Z
+# User@Host: root[root] @  [172.19.0.3]  Id:    31
+# Query_time: 0.000612  Lock_time: 0.000375 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1571320652;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T13:57:40.348656Z
+# User@Host: root[root] @  [172.19.0.1]  Id:    32
+# Query_time: 0.000335  Lock_time: 0.000217 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1571320660;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ SELECT t.* FROM dontcallme.CCTV t
+LIMIT 501;
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2019-10-17T14:18:47.706117Z
+# User@Host: root[root] @  [172.20.0.3]  Id:     8
+# Query_time: 0.004843  Lock_time: 0.002203 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571321927;
+SELECT /*+ MAX_EXECUTION_TIME(2000) */  SCHEMA_NAME FROM information_schema.SCHEMATA ORDER BY SCHEMA_NAME;
+# Time: 2019-10-17T14:19:09.290446Z
+# User@Host: root[root] @  [172.20.0.3]  Id:    12
+# Query_time: 0.000756  Lock_time: 0.000246 Rows_sent: 1  Rows_examined: 1
+use dontcallme;
+SET timestamp=1571321949;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T14:36:42.662119Z
+# User@Host: root[root] @  [172.20.0.3]  Id:    17
+# Query_time: 0.000551  Lock_time: 0.000297 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1571323002;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2019-10-17T14:41:52.074831Z
+# User@Host: root[root] @  [172.21.0.3]  Id:     8
+# Query_time: 0.005785  Lock_time: 0.001344 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571323312;
+SELECT /*+ MAX_EXECUTION_TIME(2000) */  SCHEMA_NAME FROM information_schema.SCHEMATA ORDER BY SCHEMA_NAME;
+# Time: 2019-10-17T14:42:32.333478Z
+# User@Host: root[root] @  [172.21.0.3]  Id:    12
+# Query_time: 0.000652  Lock_time: 0.000248 Rows_sent: 1  Rows_examined: 1
+use dontcallme;
+SET timestamp=1571323352;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T14:43:10.464831Z
+# User@Host: root[root] @  [172.21.0.3]  Id:    15
+# Query_time: 0.000430  Lock_time: 0.000185 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1571323390;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T14:43:11.019069Z
+# User@Host: root[root] @  [172.21.0.3]  Id:    16
+# Query_time: 0.000438  Lock_time: 0.000182 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1571323391;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T14:43:36.201004Z
+# User@Host: root[root] @  [172.21.0.1]  Id:    17
+# Query_time: 0.000719  Lock_time: 0.000356 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571323416;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T14:43:36.254747Z
+# User@Host: root[root] @  [172.21.0.1]  Id:    17
+# Query_time: 0.001807  Lock_time: 0.000422 Rows_sent: 272  Rows_examined: 313
+SET timestamp=1571323416;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select collation_name, character_set_name,
+          is_default collate utf8_general_ci = 'Yes' as is_default
+        from information_schema.collations;
+# Time: 2019-10-17T14:43:36.368147Z
+# User@Host: root[root] @  [172.21.0.1]  Id:    17
+# Query_time: 0.000663  Lock_time: 0.000309 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571323416;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T14:43:36.831072Z
+# User@Host: root[root] @  [172.21.0.1]  Id:    18
+# Query_time: 0.000645  Lock_time: 0.000337 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571323416;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T14:43:36.862188Z
+# User@Host: root[root] @  [172.21.0.1]  Id:    18
+# Query_time: 0.001580  Lock_time: 0.000350 Rows_sent: 272  Rows_examined: 313
+SET timestamp=1571323416;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select collation_name, character_set_name,
+          is_default collate utf8_general_ci = 'Yes' as is_default
+        from information_schema.collations;
+# Time: 2019-10-17T14:43:36.944514Z
+# User@Host: root[root] @  [172.21.0.1]  Id:    18
+# Query_time: 0.000488  Lock_time: 0.000227 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571323416;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select schema_name, default_collation_name
+        from information_schema.schemata
+        order by if(schema() = schema_name, 1, 2), schema_name;
+# Time: 2019-10-17T14:43:37.021265Z
+# User@Host: root[root] @  [172.21.0.1]  Id:    18
+# Query_time: 0.002048  Lock_time: 0.000736 Rows_sent: 0  Rows_examined: 415
+SET timestamp=1571323417;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          table_name,
+          index_name,
+          index_comment,
+          index_type,
+          non_unique,
+          column_name,
+          collation
+        from information_schema.statistics
+        where table_schema = 'dontcallme' and
+              index_schema = 'dontcallme' and
+              index_name collate utf8_general_ci <> 'PRIMARY'
+        order by
+          index_schema,
+          index_name,
+          seq_in_index;
+# Time: 2019-10-17T14:43:37.045962Z
+# User@Host: root[root] @  [172.21.0.1]  Id:    18
+# Query_time: 0.003116  Lock_time: 0.000248 Rows_sent: 1  Rows_examined: 994
+SET timestamp=1571323417;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        c.constraint_name,
+        c.table_name,
+        c.constraint_type,
+        r.match_option,
+        r.update_rule,
+        r.delete_rule
+      from information_schema.table_constraints c
+        left join information_schema.referential_constraints r on
+            r.constraint_schema   = c.constraint_schema
+        and r.constraint_name     = c.constraint_name
+      where c.table_schema = 'dontcallme';
+# Time: 2019-10-17T14:43:37.076400Z
+# User@Host: root[root] @  [172.21.0.1]  Id:    18
+# Query_time: 0.008074  Lock_time: 0.000183 Rows_sent: 1  Rows_examined: 3664
+SET timestamp=1571323417;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+        constraint_name,
+        table_name,
+        column_name,
+        referenced_table_schema,
+        referenced_table_name,
+        referenced_column_name
+      from information_schema.key_column_usage
+      where table_schema = 'dontcallme'
+      order by
+          table_name
+        , constraint_name
+        , ordinal_position;
+# Time: 2019-10-17T14:43:37.100551Z
+# User@Host: root[root] @  [172.21.0.1]  Id:    18
+# Query_time: 0.000695  Lock_time: 0.000401 Rows_sent: 0  Rows_examined: 14
+SET timestamp=1571323417;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          trigger_name,
+          event_object_table,
+          event_manipulation,
+          action_timing,
+          definer
+        from information_schema.triggers
+        where trigger_schema = 'dontcallme';
+# Time: 2019-10-17T14:43:37.126847Z
+# User@Host: root[root] @  [172.21.0.1]  Id:    18
+# Query_time: 0.000792  Lock_time: 0.000514 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1571323417;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          event_name,
+          event_comment,
+          definer,
+          event_type = 'RECURRING' recurring,
+          interval_value,
+          interval_field,
+          cast(coalesce(starts, execute_at) as char) starts,
+          cast(ends as char) ends,
+          status,
+          on_completion = 'PRESERVE' preserve,
+          last_executed
+        from information_schema.events
+        where event_schema = 'dontcallme';
+# Time: 2019-10-17T14:43:37.235109Z
+# User@Host: root[root] @  [172.21.0.1]  Id:    18
+# Query_time: 0.000816  Lock_time: 0.000454 Rows_sent: 0  Rows_examined: 14
+SET timestamp=1571323417;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          trigger_name,
+          event_object_table,
+          action_statement
+        from information_schema.triggers
+        where trigger_schema = 'dontcallme';
+# Time: 2019-10-17T14:43:37.253416Z
+# User@Host: root[root] @  [172.21.0.1]  Id:    18
+# Query_time: 0.000628  Lock_time: 0.000409 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1571323417;
+/* ApplicationName=IntelliJ IDEA 2019.2.2 */ select
+          event_name,
+          event_definition
+        from information_schema.events
+        where event_schema = 'dontcallme';
+# Time: 2019-10-17T14:43:54.872807Z
+# User@Host: root[root] @  [172.21.0.3]  Id:    19
+# Query_time: 0.000354  Lock_time: 0.000107 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1571323434;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T14:44:44.866943Z
+# User@Host: root[root] @  [172.21.0.3]  Id:    20
+# Query_time: 0.000385  Lock_time: 0.000128 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1571323484;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T14:44:45.487137Z
+# User@Host: root[root] @  [172.21.0.3]  Id:    21
+# Query_time: 0.000394  Lock_time: 0.000210 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1571323485;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T14:44:45.946114Z
+# User@Host: root[root] @  [172.21.0.3]  Id:    22
+# Query_time: 0.000404  Lock_time: 0.000160 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1571323485;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T14:47:04.919397Z
+# User@Host: root[root] @  [172.21.0.3]  Id:    23
+# Query_time: 0.001201  Lock_time: 0.000730 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1571323624;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T14:52:20.402356Z
+# User@Host: root[root] @  [172.21.0.3]  Id:    26
+# Query_time: 0.000503  Lock_time: 0.000172 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1571323940;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2019-10-17T14:58:57.274290Z
+# User@Host: root[root] @  [172.23.0.3]  Id:     8
+# Query_time: 0.003389  Lock_time: 0.001709 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571324337;
+SELECT /*+ MAX_EXECUTION_TIME(2000) */  SCHEMA_NAME FROM information_schema.SCHEMATA ORDER BY SCHEMA_NAME;
+# Time: 2019-10-17T14:59:01.812010Z
+# User@Host: root[root] @  [172.23.0.3]  Id:    12
+# Query_time: 0.075075  Lock_time: 0.000210 Rows_sent: 1  Rows_examined: 1
+use dontcallme;
+SET timestamp=1571324341;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T14:59:51.650228Z
+# User@Host: root[root] @  [172.23.0.3]  Id:    15
+# Query_time: 0.000260  Lock_time: 0.000122 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1571324391;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2019-10-17T15:07:24.690226Z
+# User@Host: root[root] @  [172.25.0.3]  Id:     8
+# Query_time: 0.004884  Lock_time: 0.002259 Rows_sent: 5  Rows_examined: 26
+SET timestamp=1571324844;
+SELECT /*+ MAX_EXECUTION_TIME(2000) */  SCHEMA_NAME FROM information_schema.SCHEMATA ORDER BY SCHEMA_NAME;
+# Time: 2019-10-17T15:07:46.401005Z
+# User@Host: root[root] @  [172.25.0.3]  Id:     9
+# Query_time: 0.000630  Lock_time: 0.000164 Rows_sent: 1  Rows_examined: 1
+use dontcallme;
+SET timestamp=1571324866;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T15:08:37.475029Z
+# User@Host: root[root] @  [172.25.0.3]  Id:    15
+# Query_time: 0.000329  Lock_time: 0.000174 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1571324917;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T15:13:10.210997Z
+# User@Host: root[root] @  [172.25.0.3]  Id:    17
+# Query_time: 0.000594  Lock_time: 0.000314 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1571325190;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T15:14:19.813773Z
+# User@Host: root[root] @  [172.25.0.3]  Id:    19
+# Query_time: 0.000695  Lock_time: 0.000348 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1571325259;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T15:19:14.704312Z
+# User@Host: root[root] @  [172.25.0.3]  Id:    20
+# Query_time: 0.000301  Lock_time: 0.000113 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1571325554;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T15:22:09.695482Z
+# User@Host: root[root] @  [172.25.0.3]  Id:    22
+# Query_time: 0.000467  Lock_time: 0.000215 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1571325729;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T15:25:40.050786Z
+# User@Host: root[root] @  [172.25.0.3]  Id:    27
+# Query_time: 0.000386  Lock_time: 0.000168 Rows_sent: 3  Rows_examined: 3
+SET timestamp=1571325940;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T15:25:44.841545Z
+# User@Host: root[root] @  [172.25.0.3]  Id:    29
+# Query_time: 0.000460  Lock_time: 0.000158 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1571325944;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T15:29:22.834393Z
+# User@Host: root[root] @  [172.25.0.3]  Id:    32
+# Query_time: 0.000348  Lock_time: 0.000117 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1571326162;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T15:29:25.973962Z
+# User@Host: root[root] @  [172.25.0.3]  Id:    34
+# Query_time: 0.000623  Lock_time: 0.000227 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1571326165;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
