@@ -121,36 +121,16 @@
 		</div>
 	</div>
 
-	<!-- 여기 카메라 레이아웃 자바스크립트 191016_3/4 -->
-	<script type="text/javascript">
-		//<![CDATA[
-		function calcHeight(){
-			//find the height of the internal page
-
-			var the_height=
-					document.getElementById('the_iframe').contentWindow.
-							document.body.scrollHeight;
-
-			//change the height of the iframe
-			document.getElementById('the_iframe').height=
-					the_height;
-
-			//document.getElementById('the_iframe').scrolling = "no";
-			document.getElementById('the_iframe').style.overflow = "hidden";
-		}
-		//
-	</script>
-
 	<div class="container">
 		<div class="jumbotron"">
 			<h1>스트리밍 서비스</h1>
 			<br />
 			<br />
 			<div class="jumbotron">
+            <!-- 카메라 레이아웃 191016_3/3 -->
 					<h3 style="text-align: center;"><%=userID %>의 이지엔 ES100V Mini</h3>
-					<br />
-				<!-- 태그속성 추가 + 자바스크립트 191016_4/4 -->
-					<iframe src="http://b255fish.dyndns.org:5000/" id="the_iframe" onload="calcHeight();" name="WrittenPublic" title="게시판뷰" style="overflow-x:hidden; overflow:auto; width:100%; min-height:500px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 scrolling=no vspace=0></iframe>
+					<br />			
+					<iframe src="http://b255fish.iptime.org:5000/" style="  display: block; margin-right: auto; margin-left: auto; overflow-x:hidden; overflow:auto; width:320px; height:240px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 scrolling=no vspace=0></iframe>
 			</div>
 		</div>	
 	</div>

@@ -7,27 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bbd383-519d-43ed-8f84-2c3c49227398" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mysql/var/log/mysql_general.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-17.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/log/mysql_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/var/log/mysql_error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/log/mysql_slow.log" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/var/log/mysql_slow.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/var/log/mysql_general.log" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/var/log/mysql_general.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/join.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/join.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/conf/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/conf/server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-16.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-16.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/join.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -146,12 +137,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3a0bd381" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -178,6 +164,9 @@
       <workItem from="1571232612762" duration="378000" />
       <workItem from="1571233159050" duration="2614000" />
       <workItem from="1571240632229" duration="1268000" />
+      <workItem from="1571283629046" duration="563000" />
+      <workItem from="1571287726610" duration="4351000" />
+      <workItem from="1571307702155" duration="476000" />
     </task>
     <servers />
   </component>
