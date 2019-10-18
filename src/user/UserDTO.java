@@ -8,7 +8,10 @@ public class UserDTO {
     private String userGender;
     private String userEmail;
     private String userEmailHash;
-    private String userIP;
+    private String userIP1;
+    private String userIP2;
+    private String userIP3;
+    private String userIP4;
     private boolean userEmailChecked;
 
     public UserDTO() {
@@ -16,7 +19,7 @@ public class UserDTO {
     }
 
     public UserDTO(String userID, String userPassword, String userName, String userGender, String userEmail,
-                   String userEmailHash, boolean userEmailChecked, String userIP) {
+                   String userEmailHash, boolean userEmailChecked, String userIP1, String userIP2, String userIP3, String userIP4) {
         super();
         this.userID = userID;
         this.userPassword = userPassword;
@@ -25,7 +28,11 @@ public class UserDTO {
         this.userEmail = userEmail;
         this.userEmailHash = userEmailHash;
         this.userEmailChecked = userEmailChecked;
-        this.userIP = userIP;
+        this.userIP1 = userIP1;
+        this.userIP2 = userIP2;
+        this.userIP3 = userIP3;
+        this.userIP4 = userIP4;
+
     }
 
     public String getUserEmailHash() {
@@ -86,12 +93,34 @@ public class UserDTO {
         this.userEmail = userEmail;
     }
 
-    public String getUserIP() {
-        return userIP;
+    public String getUserIP1() {
+        return userIP1;
     }
 
-    public void setUserIP(String userIP) {
-        this.userIP = userIP;
+    public void setUserIP1(String userIP1) {
+        this.userIP1 = userIP1;
+    }
+
+    public String getUserIP2() {
+        return userIP2;
+    }
+
+    public void setUserIP2(String userIP2) {
+        this.userIP2 = userIP2;
+    }
+
+    public String getUserIP3() {
+        return userIP3;
+    }
+
+    public void setUserIP3(String userIP3) {
+        this.userIP3 = userIP3;
+    }
+
+    public String getUserIP4() { return userIP4; }
+
+    public void setUserIP4(String userIP4) {
+        this.userIP4 = userIP4;
     }
 
 }

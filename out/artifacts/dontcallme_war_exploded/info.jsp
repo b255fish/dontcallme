@@ -10,6 +10,7 @@
 <%@ page import="util.DatabaseUtil" %>
 <%@ page import="java.util.Date" %>
 <%@ page import="java.text.SimpleDateFormat" %>
+<%@ page import="java.util.Calendar" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -96,7 +97,9 @@
     // 5. rs => 변수저장, 출력
 
     Date nowTime = new Date();
-    SimpleDateFormat sf = new SimpleDateFormat("yyyy년 MM월 dd일 a hh:mm:ss");
+    SimpleDateFormat sf1 = new SimpleDateFormat("yyyy년");
+    SimpleDateFormat sf2 = new SimpleDateFormat("MM월 dd일");
+    SimpleDateFormat sf3 = new SimpleDateFormat("hh시 mm분 ss초");
 
 
 %>
@@ -140,6 +143,7 @@
                    aria-expanded="false">회원관리<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="logoutAction.jsp">로그아웃</a></li>
+                    <li><a href="update.jsp">회원수정</a></li>
                     <li><a onclick="return confirm('정말로 탈퇴하시겠습니까?')" href="removeAction.jsp">회원탈퇴</a></li>
                 </ul>
             </li>
@@ -166,73 +170,143 @@
 
         <!-- 여기 순서 대략 바꿈 191016_1/3 -->
             <div class="row" style="text-align:center;">
-                <div class="col-md-4 col-lg-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="jumbotron" style="padding: 30px;">
-                        <p>시스템 보안 솔루션 <br/>
+                        <p style="font-weight: bold">시스템 보안 솔루션 <br/>
                             <br/>
-                        <div class="jumbotron" style="padding: 20px; background-color: white; color: black;">
-                            컨테이너 보안
+                        <div class="jumbotron" style="padding: 20px; background-color: white; color: black; height: 140px">
+                            <div class="dashead">
+                                <h5 style="font-weight: bold; color: gray; text-align: left">컨테이너 보안</h5>
+                                <h4 style="text-align: left">350,897</h4>
+
+                                <img src="images/docker.png" width="70" height="70" style="float: right; margin-top:-70px">
+
+                                <div class="dashtail" style="float: left">
+                                    <h5 style="color: limegreen; display: inline-block; float: left">▲ 3.48%&nbsp;&nbsp;</h5>
+                                    <h5 style="display: inline-block; float: left">Since last month</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="jumbotron" style="padding: 30px;">
-                        <p>네트워크 보안 솔루션 <br/>
+                        <p style="font-weight: bold">네트워크 보안 솔루션 <br/>
                             <br/>
-                        <div class="jumbotron" style="padding: 20px; background-color: white; color: black;">
-                            라우터 보안
+                        <div class="jumbotron" style="padding: 20px; background-color: white; color: black; height: 140px">
+                            <div class="dashead">
+                                <h5 style="font-weight: bold; color: gray; text-align: left">라우터 보안</h5>
+                                <h4 style="text-align: left">2,356</h4>
+
+                                <img src="images/router.png" width="70" height="70" style="float: right; margin-top:-70px">
+
+                                <div class="dashtail" style="float: left">
+                                    <h5 style="color: tomato; display: inline-block; float: left">▼ -7.47%&nbsp;&nbsp;</h5>
+                                    <h5 style="display: inline-block; float: left">Since last month</h5>
+                                </div>
+                            </div>
                         </div>
-                        <div class="jumbotron" style="padding: 20px; background-color: white; color: black;">
-                            IoT 단말 보안
+                        <div class="jumbotron" style="padding: 20px; background-color: white; color: black; height: 140px">
+                            <div class="dashead">
+                                <h5 style="font-weight: bold; color: gray; text-align: left">IoT 단말 보안</h5>
+                                <h4 style="text-align: left">50,573</h4>
+
+                                <img src="images/camera.png" width="70" height="70" style="float: right; margin-top:-70px">
+
+                                <div class="dashtail" style="float: left">
+                                    <h5 style="color: limegreen; display: inline-block; float: left">▲ 9.33%&nbsp;&nbsp;</h5>
+                                    <h5 style="display: inline-block; float: left">Since last month</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-lg-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="jumbotron" style="padding: 30px;">
-                        <p>웹 보안 솔루션 <br/>
+                        <p style="font-weight: bold">웹 보안 솔루션 <br/>
                             <br/>
-                        <div class="jumbotron" style="padding: 20px; background-color: white; color: black;">
-                            코드 보안
+                        <div class="jumbotron" style="padding: 20px; background-color: white; color: black; height: 140px">
+                            <div class="dashead">
+                                <h5 style="font-weight: bold; color: gray; text-align: left">코드 보안</h5>
+                                <h4 style="text-align: left">78,199,020</h4>
+
+                                <img src="images/source-code.png" width="70" height="70" style="float: right; margin-top:-70px">
+
+                                <div class="dashtail" style="float: left">
+                                    <h5 style="color: limegreen; display: inline-block; float: left">▲ 12.55%&nbsp;&nbsp;</h5>
+                                    <h5 style="display: inline-block; float: left">Since last month</h5>
+                                </div>
+                            </div>
                         </div>
-                        <div class="jumbotron" style="padding: 20px; background-color: white; color: black;">
-                            브라우저 보안
+                        <div class="jumbotron" style="padding: 20px; background-color: white; color: black; height: 140px">
+                            <div class="dashead">
+                                <h5 style="font-weight: bold; color: gray; text-align: left">브라우저 보안</h5>
+                                <h4 style="text-align: left">424</h4>
+
+                                <img src="images/browser.png" width="70" height="70" style="float: right; margin-top:-70px">
+
+                                <div class="dashtail" style="float: left">
+                                    <h5 style="color: tomato; display: inline-block; float: left">▼ -89.33%&nbsp;&nbsp;</h5>
+                                    <h5 style="display: inline-block; float: left">Since last month</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4 col-lg-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="jumbotron" style="padding: 30px;">
-                        <p>회원 정보<br/>
+                        <p style="font-weight: bold">회원 정보<br/>
                             <br/>
-                        <div class="jumbotron" style="padding: 20px; background-color: white; color: black;">
-                            <%=userName %>
-                        </div>
-                        <div class="jumbotron" style="padding: 20px; background-color: white; color: black;">
-                            <%=userEmail %>
+                        <div class="jumbotron" style="padding: 20px; background-color: white; color: black; height: 140px">
+                            <div class="dashead">
+                                <h5 style="font-weight: bold; color: gray; text-align: left">이름</h5>
+                                <h4 style="text-align: left"><%=userName %></h4>
+
+                                <img src="images/user.png" width="70" height="70" style="float: right; margin-top:-70px">
+
+                                <div class="dashtail" style="float: left">
+                                    <h5 style="color:blueviolet; display: inline-block; float: left">E-Mail&nbsp;&nbsp;</h5>
+                                    <h5 style="display: inline-block; float: left"><%=userEmail %></h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4 col-lg-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="jumbotron" style="padding: 30px;">
-                        <p>현재 날짜와 시간 <br/>
+                        <p style="font-weight: bold">날짜 정보<br/>
                             <br/>
-                        <div class="jumbotron" style="padding: 20px; background-color: white; color: black;">
-                            <%= sf.format(nowTime) %>
+                        <div class="jumbotron" style="padding: 20px; background-color: white; color: black; height: 140px">
+                            <div class="dashead">
+                                <h5 style="font-weight: bold; color: gray; text-align: left"><%= sf1.format(nowTime) %></h5>
+                                <h4 style="text-align: left"><%= sf2.format(nowTime) %></h4>
+
+                                <img src="images/calendar.png" width="70" height="70" style="float: right; margin-top:-70px">
+
+                                <div class="dashtail" style="float: left">
+                                    <h5 style="display: inline-block; float: left"><%= sf3.format(nowTime) %>&nbsp;&nbsp;</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4 col-lg-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="jumbotron" style="padding: 30px;">
-                        <p>총 방문자수 <br/>
+                        <p style="font-weight: bold">방문자 정보 <br/>
                             <br/>
-                        <div class="jumbotron" style="padding: 20px; background-color: white; color: black;">
-                            <jsp:getProperty name="counter" property="visitCount"/>
+                        <div class="jumbotron" style="padding: 20px; background-color: white; color: black; height: 140px">
+                            <div class="dashead">
+                                <h5 style="font-weight: bold; color: gray; text-align: left">방문 횟수</h5>
+                                <h4 style="text-align: left"><jsp:getProperty name="counter" property="visitCount"/>번</h4>
+
+                                <img src="images/visit-cards.png" width="70" height="70" style="float: right; margin-top:-70px">
+                            </div>
                         </div>
                     </div>
                 </div>
-
 
             </div>
         </div>

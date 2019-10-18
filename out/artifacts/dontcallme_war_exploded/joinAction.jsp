@@ -35,7 +35,10 @@
 		String userName = null;
 		String userGender = null;
 		String userEmail = null;
-		String userIP = null;
+		String userIP1 = null;
+		String userIP2 = null;
+		String userIP3 = null;
+		String userIP4 = null;
 
 		if(request.getParameter("userID") != null) {
 			userID = request.getParameter("userID");
@@ -43,22 +46,33 @@
 		if(request.getParameter("userPassword") != null) {
 			userPassword = request.getParameter("userPassword");
 		}
+
 		if(request.getParameter("userName") != null) {
 			userName = request.getParameter("userName");
 		}
-		//if(request.getParameter("userGender") != null) {
-		//	userGender = request.getParameter("userGender");
-		//}
+//		if(request.getParameter("userGender") != null) {
+//			userGender = request.getParameter("userGender");
+//		}
 		if(request.getParameter("userEmail") != null) {
 			userEmail = request.getParameter("userEmail");
 		}
-		if(request.getParameter("userIP") != null) {
-			userIP = request.getParameter("userIP");
+		if(request.getParameter("userIP1") != null) {
+			userIP1 = request.getParameter("userIP1");
 		}
+		if(request.getParameter("userIP2") != null) {
+			userIP2 = request.getParameter("userIP2");
+		}
+		if(request.getParameter("userIP3") != null) {
+			userIP3= request.getParameter("userIP3");
+		}
+		if(request.getParameter("userIP4") != null) {
+			userIP4 = request.getParameter("userIP4");
+		}
+
 		if(userID == null || userPassword == null ||  userName == null ||
-				userEmail == null || userIP == null || userID.equals("") ||
+				userEmail == null || userID.equals("") ||
 				userPassword.equals("") || userName.equals("") ||
-				userEmail.equals("") || userIP.equals("")) {
+				userEmail.equals("")) {
 			PrintWriter script = response.getWriter();
 			script.println("<script>");
 			script.println("alert('입력이 안 된 사항이 있습니다.');");
@@ -95,7 +109,7 @@
 				int result = 0;
 
 				try {
-					result = userDAO.join(new UserDTO(userID, userPassword, userName, userGender, userEmail, SHA256.getSHA256(userEmail), false, userIP));
+					result = userDAO.join(new UserDTO(userID, userPassword, userName, userGender, userEmail, SHA256.getSHA256(userEmail), false, userIP1, userIP2, userIP3, userIP4));
 				} catch (GeneralSecurityException e) {
 					e.printStackTrace();
 				}

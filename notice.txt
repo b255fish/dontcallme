@@ -11,22 +11,38 @@ _init
   IntelliJ
     import setting
 
-MySQL log setting
-    필요한 데이터베이스만 마운트. (원래 다 해야되는데 그냥 깃허브 용량/보안상(?) 다른건 건드리지 않았으니까 이거만 ㅇㅇ.. 일단)
 
 docker-compose.yml
-  - Volumes mount in docker-compose.yml
+    _Image
+        MySQL
+            필요한 데이터베이스만 마운트. (원래 다 해야되는데 그냥 깃허브 용량/보안상(?) 다른건 건드리지 않았으니까 이거만 ㅇㅇ.. 일단)
+            Volume 설정 새로 만든 DB만 하고 싶은데 안되는듯.. 전체 마운트해야하는듯.. Initializing database 에서 멈춤..
+                - "./mysql/var/lib/mysql:/var/lib/mysql"
+        tomcat:9.0.27-jdk13-openjdk-orcale
+            openjdk-13 다운로드 되어있음 이미.
+            volumes:
+              - "./tomcat/conf/catalina.properties:/usr/local/tomcat/conf/catalina.properties"      // External Library 경로 설정 (shared.loader=/usr/local/tomcat/webapps/WEB-INF/lib/*.jar)
+              - "./tomcat/bin/catalina.sh:/usr/local/tomcat/bin/catalina.sh"                        // Classpath 경로 설정 (CLASSPATH=/usr/local/tomcat/webapps/WEB-INF/lib)
+              - "./tomcat/conf/server.xml:/usr/local/tomcat/conf/server.xml"                        // port (8080 -> 8081) 및 외부접속 허용 (address="0.0.0.0")
+            - ★ 실시간 프론트엔드가 변경되는 것을 보도록 볼륨설정하는방법?; NoClassSuchFound -> NoClassDef ... (런타임에러.. .jar 라이브러리 파일 버전..안맞아서 에러나는거같은데.. .war일때는 안그러는데 이떄만 그럼.) 어떻게 고쳐야할지 모르겟음..
+              #- "./web:/usr/local/tomcat/webapps"
+              #- "./out/production/dontcallme:/usr/local/tomcat/webapps/WEB-INF/classes"
+              #- "./lib:/usr/local/tomcat/webapps/WEB-INF/lib"
+              #- "./tomcat/conf/catalina.properties:/usr/local/tomcat/conf/catalina.properties"
+              #- "./tomcat/bin/catalina.sh:/usr/local/tomcat/bin/catalina.sh"
+    - Volumes mount in docker-compose.yml
     - 서브디렉토리는 마운트 안됌
     - (리눅스) 경로설정 시, 새 폴더는 만들지 않지만, 새 파일은 만든다. 디렉터리 폴더가 없으면 오류가 뜸.
         Ex. MySQL
-  - 윈도우 서비스에 해당 포트로 실행중이거나, 중지되어있어도 프로그램은 존재하지 않지만 서비스에 남아있는 경우 사용이불 가능 능할 수 있다.
-    regedit - HKEY_LOCAL_MACIHNE\SYSTEM\CurrentControlSet\Services\<Service Name> delete
-  - 예약된 포트도 사용중이라면(?) 이용할 수 없다.
-    netsh interface ipv4 show excludedportrange protocol=tcp
-  - MySQL
-    Volume 설정 새로 만든 DB만 하고 싶은데 안되는듯.. 전체 마운트해야하는듯.. Initializing database 에서 멈춤..
-        - "./mysql/var/lib/mysql:/var/lib/mysql"
-  - 동일한 네트워크간에 환경변수 공유함.
+    - 윈도우 서비스에 해당 포트로 실행중이거나, 중지되어있어도 프로그램은 존재하지 않지만 서비스에 남아있는 경우 사용이불 가능 능할 수 있다.
+        regedit - HKEY_LOCAL_MACIHNE\SYSTEM\CurrentControlSet\Services\<Service Name> delete
+    - 예약된 포트도 사용중이라면(?) 이용할 수 없다.
+        netsh interface ipv4 show excludedportrange protocol=tcp
+    - 이미지에 써넣은 환경변수는 해당 이미지에서만 사용됨.
+    - 파일을 마운트할 때에는 확장자도 같아야 함. (버전마다 다른 것이 가끔 있으니 주의할 것)
+    - 주석 (#) 처리할 때 문자 중간에 들어가면 오류발생
+
+
 
 IntelliJ
   Database 연결 시, localhost 로 연결해야 한다. 현재 개발은 IDE (localhost)에서 진행하기 때문.
@@ -57,4 +73,23 @@ IntelliJ
 Java
     Properties class
         put and putAll method: 호출자가문자열이 아닌 키 또는 값을 가진 엔트리를 삽입할 수 있으므로 사용하지 말 것.
+    - Secure coding
+        private, final, 접두사 필요한 곳에 추가.
+        try-with-resource 구문 필요한 곳 사용 (Ex. 파일입출력, DB 연결)
+        쓰레드 고려
+            StringBuffer (Thread-safe) vs. StringBuilder (not Thread-safe)
+        예외 처리.. 통일.. 어떤식?.. 흠.. 결과?..
+        JDBC_USER, JDBC_PASS? .properties 에서 비밀번호를 가져오는것이 아니라 docker-compose.yml 에서 가져와서 별 필요없는듯?.. 아닌가?..?.. 암호화의 범위를 정해야함..
 
+
+
+Linux command
+    env
+
+
+
+Servlet 과 JSP 의 컴파일 시점 비교
+서블릿은 컴파일하면 class 파일이 생성되어 배포되고 런타임 시에 WAS에 의해 동작하게 된다. JSP파일은 빌드시에 컴파일되지 않고 그 파일 그대로 WAR에 포함되어 배포된다. 그렇다면 JSP의 Java 코드는 어떻게 동작하게 될까? JSP는 런타임 시에 컴파일이 이루어진다. 최초로 특정 JSP 파일을 필요로하는 요청이 들어오면 WAS가 해당 JSP파일을 컴파일하여 객체로 생성하고 반환해준다. 그 후에 요청에는 다시 컴파일하지 않고 이전에 생성했던 객체를 사용한다.
+
+JSP파일이 수정된다면?
+컴파일된 JSP의 객체정보에 컴파일된 시간을 기록한다. JSP파일의 변경시간과 비교하여 파일이 변경되었다고 판단되면 재컴파일하여 요청에 응답한다.

@@ -7,7 +7,7 @@ import java.security.NoSuchAlgorithmException;
 public class SHA256 {
 
     public static String getSHA256(String input) { //이메일 값에 해시를 적용한 값을 반환해서 적용
-        StringBuffer result = new StringBuffer();
+        StringBuilder result = new StringBuilder();
         try {
             MessageDigest digest = MessageDigest.getInstance("SHA-256");
             byte[] salt = "Hello! Ths is Salt.".getBytes(); //악의적인 공격자로부터 안전성 업

@@ -7,7 +7,11 @@
 <jsp:useBean id="user" class="user.UserDTO" scope="page" />
 <jsp:setProperty name="user" property="userID" />
 <jsp:setProperty name="user" property="userPassword" />
-<jsp:setProperty name="user" property="userIP" />
+<jsp:setProperty name="user" property="userIP1" />
+<jsp:setProperty name="user" property="userIP2" />
+<jsp:setProperty name="user" property="userIP3" />
+<jsp:setProperty name="user" property="userIP4" />
+
 
 <!DOCTYPE html>
 <html>
@@ -30,13 +34,9 @@
 <body>
 	<%
 		String userID = null;
-		String userIP = null;
-		
+
 		if(session.getAttribute("userID") != null) {
 			userID = (String) session.getAttribute("userID");
-		}
-		if(session.getAttribute("userIP") != null) {
-			userIP = (String) session.getAttribute("userIP");
 		}
 		if(userID != null) {
 			PrintWriter script = response.getWriter();
@@ -49,13 +49,12 @@
 		UserDAO userDAO = new UserDAO();
 		int result = 0;
 		try {
-			result = userDAO.login(user.getUserID(), user.getUserPassword(), user.getUserIP());
+			result = userDAO.login(user.getUserID(), user.getUserPassword());
 		} catch (GeneralSecurityException e) {
 			e.printStackTrace();
 		}
 		if (result == 1) {
 			session.setAttribute("userID",user.getUserID());
-			session.setAttribute("userIP",user.getUserIP());
 			PrintWriter script = response.getWriter();
 			script.println("<script>");
 			script.println("location.href = 'main.jsp'");

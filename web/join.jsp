@@ -66,6 +66,7 @@
 			<div class="jumbotron" style="padding-top: 20px;">
 				<form method="post" action="joinAction.jsp">
 					<h3 style="text-align: center;">회원가입 화면</h3>
+                    <br/>
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20">
 					</div>
@@ -91,7 +92,16 @@
 						<input type="email" class="form-control" placeholder="이메일" name="userEmail" maxlength="50">
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="IP주소" name="userIP" maxlength="50">
+						<input type="text" class="form-control" placeholder="1번 카메라 IP" name="userIP1" maxlength="50">
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="2번 카메라 IP" name="userIP2" maxlength="50">
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="3번 카메라 IP" name="userIP3" maxlength="50">
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="4번 카메라 IP" name="userIP4" maxlength="50">
 					</div>
 					<input type="submit" class="btn btn-primary form-control" value="회원가입">					
 				</form>

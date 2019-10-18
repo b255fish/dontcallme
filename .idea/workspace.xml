@@ -3,22 +3,133 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="dontcallme:war" />
+      <artifact name="dontcallme:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bbd383-519d-43ed-8f84-2c3c49227398" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-17.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/keymanagement.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/logs/localhost.2019-10-18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/browser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/docker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/router.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/source-code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/visit-cards.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/updateAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/dontcallme_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e8802052-eab6-427d-a731-edd020e7d482.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e8802052-eab6-427d-a731-edd020e7d482.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/To do.txt" beforeDir="false" afterPath="$PROJECT_DIR$/To do.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dontcallme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dontcallme.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/mysql-init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/mysql-init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/var/log/mysql_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/var/log/mysql_error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysql/var/log/mysql_general.log" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/var/log/mysql_general.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql/var/log/mysql_slow.log" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/var/log/mysql_slow.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notice.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/user/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/user/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/user/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/AESDec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/AESDec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/CounterBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/CounterBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/DatabaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/DatabaseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/Gmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/Gmail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/SHA256.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/SHA256.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/key.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/keymanagement.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/keymanagement.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/emailCheckAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/emailCheckAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/emailSendAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/emailSendAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/join.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/joinAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/joinAction.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/loginAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/loginAction.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/removeAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/removeAction.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/user/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/user/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/user/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/util/AESDec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/util/AESDec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/util/CounterBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/util/CounterBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/util/DatabaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/util/DatabaseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/util/Gmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/util/Gmail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/util/SHA256.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/util/SHA256.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/util/key.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/util/keymanagement.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/util/keymanagement.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/emailCheckAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/emailCheckAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/emailSendAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/emailSendAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/join.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/joinAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/joinAction.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/loginAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/loginAction.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/removeAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/removeAction.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dontcallme/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dontcallme/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dontcallme/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dontcallme/user/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dontcallme/user/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dontcallme/user/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dontcallme/util/AESDec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dontcallme/util/AESDec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dontcallme/util/CounterBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dontcallme/util/CounterBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dontcallme/util/DatabaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dontcallme/util/DatabaseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dontcallme/util/Gmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dontcallme/util/Gmail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dontcallme/util/SHA256.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dontcallme/util/SHA256.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dontcallme/util/key.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/dontcallme/util/keymanagement.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dontcallme/util/keymanagement.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/AESDec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/AESDec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/DatabaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/DatabaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/SHA256.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/SHA256.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/key.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/keymanagement.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/keymanagement.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/conf/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/conf/server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/host-manager.2019-10-15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/host-manager.2019-10-16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/localhost.2019-10-15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/localhost.2019-10-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/host-manager.2019-10-18.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/manager.2019-10-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/manager.2019-10-18.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/manager.2019-10-16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/emailCheckAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/emailCheckAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/emailSendAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/emailSendAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/join.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/joinAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/joinAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/npm.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/loginAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/loginAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/removeAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/removeAction.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +182,7 @@
       <list>
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="jsf" />
       </list>
     </option>
   </component>
@@ -78,7 +190,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1S8xi4EbDkLTR1Gc35pSzoB7nl8" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
@@ -87,23 +199,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../_새 폴더/Dontcallme" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.16699219" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="O:\GitHub\repositories\dontcallme" />
-      <recent name="O:\GitHub\repositories\dontcallme\lib" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="O:\GitHub\repositories\dontcallme\web" />
       <recent name="O:\GitHub\repositories\dontcallme\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wlsgm\Downloads\dontcallme-master\web" />
+      <recent name="O:\GitHub\repositories\dontcallme" />
+      <recent name="O:\GitHub\repositories\dontcallme\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -136,8 +249,14 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
+        <option name="contentProportion" value="0.36402968" />
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@42b68b17" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -167,6 +286,19 @@
       <workItem from="1571283629046" duration="563000" />
       <workItem from="1571287726610" duration="4351000" />
       <workItem from="1571307702155" duration="476000" />
+      <workItem from="1571315265127" duration="50000" />
+      <workItem from="1571315587198" duration="1204000" />
+      <workItem from="1571317520862" duration="190000" />
+      <workItem from="1571318150185" duration="238000" />
+      <workItem from="1571319682712" duration="977000" />
+      <workItem from="1571320759159" duration="411000" />
+      <workItem from="1571321411753" duration="8109000" />
+      <workItem from="1571362582622" duration="5065000" />
+      <workItem from="1571376042139" duration="1145000" />
+      <workItem from="1571379854164" duration="11188000" />
+      <workItem from="1571391365546" duration="10504000" />
+      <workItem from="1571405722991" duration="3748000" />
+      <workItem from="1571413860984" duration="5548000" />
     </task>
     <servers />
   </component>

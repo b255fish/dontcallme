@@ -28,7 +28,7 @@ public class DatabaseUtil { // DB와 연동되는 부분을 정의
     private static final String JDBC_USER = System.getenv("JDBC_USER");
     private static final String JDBC_PASS = System.getenv("JDBC_PASS");
 
-    public static void init() {
+    static { // static initializer
         // setUrl Note: this method currently has no effect once the pool has been initialized. The pool is initialized the first time one of the following methods is invoked: getConnection, setLogwriter, setLoginTimeout, getLoginTimeout, getLogWriter.
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
         dataSource.setUrl(JDBC_URL);
