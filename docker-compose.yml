@@ -10,7 +10,7 @@ services:
       JDBC_USER: example_db_user
       JDBC_PASS: example_db_pass
     volumes:
-      - "./out/artifacts/dontcallme_war:/usr/local/tomcat/webapps"
+      - "./out/artifacts/ROOT:/usr/local/tomcat/webapps"
       - "./tomcat/conf/server.xml:/usr/local/tomcat/conf/server.xml"
       - "./tomcat/logs:/usr/local/tomcat/logs"
     restart: always

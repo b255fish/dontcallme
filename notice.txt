@@ -11,11 +11,28 @@ _init
   IntelliJ
     import setting
 
+_security
+    about web
+        - CDN (Content Delivery Network)
+            - 단점: CDN Node들이 많이 보유되지 않는다면 성능도 떨어지고, 최악의 경우는 SPOF(단일 장애점)이 초래될 수 있다.
+                - 단일 장애점이란 한군데가 중단되면 전체 시스템이 중단되버리는 현상이다.
+                    -> 신뢰성이 높아야하는 프로젝트라면 특히 신경써야하는 부분이다.
+                - 신뢰할 수 있는 공급자 선택을 해야 함. (jquery, Microsoft, Google 등)
+            Present: JQuery CDN
+                // https://en.wikipedia.org/wiki/Subresource_Integrity  // https://www.w3.org/TR/SRI/
+                The integrity and crossorigin attributes are used for Subresource Integrity (SRI) checking. This allows browsers to ensure that resources hosted on third-party servers have not been tampered with
+            예정: Bootstrap (Version -)
+
+
+Router
+    외부 도메인: 80  ->  8081 포트포워딩? // ... 안하면 접속이 안됨
+    공유기 도메인: 8081  ->  8081 포트포워딩
+
 
 docker-compose.yml
     _Image
         MySQL
-            필요한 데이터베이스만 마운트. (원래 다 해야되는데 그냥 깃허브 용량/보안상(?) 다른건 건드리지 않았으니까 이거만 ㅇㅇ.. 일단)
+            필요한 데이https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js터베이스만 마운트. (원래 다 해야되는데 그냥 깃허브 용량/보안상(?) 다른건 건드리지 않았으니까 이거만 ㅇㅇ.. 일단)
             Volume 설정 새로 만든 DB만 하고 싶은데 안되는듯.. 전체 마운트해야하는듯.. Initializing database 에서 멈춤..
                 - "./mysql/var/lib/mysql:/var/lib/mysql"
         tomcat:9.0.27-jdk13-openjdk-orcale
@@ -70,6 +87,8 @@ IntelliJ
             script.println("</script>");
             script.close();
 
+
+출처: https://mygumi.tistory.com/67 [마이구미의 HelloWorld]
 Java
     Properties class
         put and putAll method: 호출자가문자열이 아닌 키 또는 값을 가진 엔트리를 삽입할 수 있으므로 사용하지 말 것.
