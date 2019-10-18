@@ -3,6 +3,12 @@
 <%@ page import="java.io.PrintWriter" %>
 <%@ page import="user.UserDAO" %>
 <%@ page import="java.security.GeneralSecurityException" %>
+<%@ page import="java.sql.Connection" %>
+<%@ page import="java.sql.PreparedStatement" %>
+<%@ page import="java.sql.ResultSet" %>
+<%@ page import="java.sql.Statement" %>
+<%@ page import="java.sql.SQLException" %>
+<%@ page import="util.DatabaseUtil" %>
 
 <!DOCTYPE html>
 <html>
@@ -29,13 +35,25 @@
 	<%
 
 	String userID = null;
-	String userIP = null;
+	String userIP1 = null;
+	String userIP2 = null;
+	String userIP3 = null;
+	String userIP4 = null;
 	
 	if(session.getAttribute("userID") != null) {
 		userID = (String) session.getAttribute("userID");
 	}
-	if(session.getAttribute("userIP") != null) {
-		userIP = (String) session.getAttribute("userIP");
+	if(session.getAttribute("userIP1") != null) {
+		userIP1 = (String) session.getAttribute("userIP1");
+	}
+	if(session.getAttribute("userIP2") != null) {
+	    userIP2 = (String) session.getAttribute("userIP2");
+	}
+	if(session.getAttribute("userIP3") != null) {
+	    userIP3 = (String) session.getAttribute("userIP3");
+	}
+	if(session.getAttribute("userIP4") != null) {
+	    userIP4 = (String) session.getAttribute("userIP4");
 	}
 	if(userID == null) {
 		PrintWriter script = response.getWriter();
@@ -60,7 +78,27 @@
 			script.close();
 			return;
 		}
-		
+
+        try (Connection conn = DatabaseUtil.getDataSource().getConnection()) {
+            String sql1 = "select * from CCTV where userID = ?";
+            PreparedStatement pstmt = conn.prepareStatement(sql1);
+
+            Statement stmt = null;
+            pstmt.setString(1, userID);
+            stmt = conn.createStatement();
+            String sql2 = "select * from CCTV where userID = '" + userID + "'";
+            ResultSet rs = stmt.executeQuery(sql2);
+
+            if (rs.next()) {
+                userIP1 = rs.getString("userIP1");
+                userIP2 = rs.getString("userIP2");
+                userIP3 = rs.getString("userIP3");
+                userIP4 = rs.getString("userIP4");
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
 	%>
   
 	<nav class="navbar navbar-default">
@@ -122,16 +160,45 @@
 	</div>
 
 	<div class="container">
-		<div class="jumbotron"">
-			<h1>스트리밍 서비스</h1>
+		<div class="jumbotron">
+			<h1><%=userID %>의 ES100V Mini</h1>
 			<br />
 			<br />
-			<div class="jumbotron">
-            <!-- 카메라 레이아웃 191016_3/3 -->
-					<h3 style="text-align: center;"><%=userID %>의 이지엔 ES100V Mini</h3>
-					<br />			
-					<iframe src="http://b255fish.iptime.org:5000/" style="  display: block; margin-right: auto; margin-left: auto; overflow-x:hidden; overflow:auto; width:320px; height:240px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 scrolling=no vspace=0></iframe>
+
+			<div class="row" style="text-align:center;">
+				<div class="col-md-6 col-lg-6">
+					<div class="jumbotron" style="padding: 30px;">
+						<p style="font-weight: bold">Flask Test<br/>
+							<br/>
+							<iframe src="http://localhost:5000/" style="  display: block; margin-right: auto; margin-left: auto; overflow-x:hidden; overflow:auto; width:320px; height:300px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 vspace=0></iframe>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-6">
+					<div class="jumbotron" style="padding: 30px;">
+						<p style="font-weight: bold"><%=userIP1 %><br/>
+							<br/>
+							<iframe src="http://<%=userIP1 %>:6611/web/admin.html"  style="  display: block; margin-right: auto; margin-left: auto; overflow-x:hidden; overflow:auto; width:320px; height:300px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 vspace=0></iframe>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-6">
+					<div class="jumbotron" style="padding: 30px;">
+						<p style="font-weight: bold"><%=userIP2 %><br/>
+							<br/>
+							<iframe src="http://<%=userIP2 %>:6611/web/admin.html"  style="  display: block; margin-right: auto; margin-left: auto; overflow-x:hidden; overflow:auto; width:320px; height:300px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 vspace=0></iframe>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-6">
+					<div class="jumbotron" style="padding: 30px;">
+						<p style="font-weight: bold"><%=userIP3 %><br/>
+							<br/>
+							<iframe src="http://<%=userIP3 %>:6611/web/admin.html"  style="  display: block; margin-right: auto; margin-left: auto; overflow-x:hidden; overflow:auto; width:320px; height:300px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 vspace=0></iframe>
+					</div>
+				</div>
 			</div>
+
 		</div>	
 	</div>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>

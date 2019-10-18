@@ -91,7 +91,16 @@
 						<input type="email" class="form-control" placeholder="이메일" name="userEmail" maxlength="50">
 					</div>
 					<div class="form-group">
-						<input type="text" class="form-control" placeholder="IP주소" name="userIP" maxlength="50">
+						<input type="text" class="form-control" placeholder="IP주소_1" name="userIP1" maxlength="50">
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="IP주소_2" name="userIP2" maxlength="50">
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="IP주소_3" name="userIP3" maxlength="50">
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="IP주소_4" name="userIP4" maxlength="50">
 					</div>
 					<input type="submit" class="btn btn-primary form-control" value="회원가입">					
 				</form>

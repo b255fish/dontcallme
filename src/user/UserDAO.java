@@ -15,13 +15,12 @@ public class UserDAO { //DB와 1대1로 연동되어 DB에 데이터를 기록�
         DatabaseUtil.init();
     }
 
-    public int login(String userID, String userPassword, String userIP) throws GeneralSecurityException {
-        String SQL = "SELECT userPassword FROM CCTV WHERE userID = ? and userIP = ? ";
+    public int login(String userID, String userPassword) throws GeneralSecurityException {
+        String SQL = "SELECT userPassword FROM CCTV WHERE userID = ? ";
 
         try (Connection conn = DatabaseUtil.getDataSource().getConnection()) {
             PreparedStatement pstmt = conn.prepareStatement(SQL);
             pstmt.setString(1, userID);
-            pstmt.setString(2, userIP);
             ResultSet rs = pstmt.executeQuery();
             if(rs.next()) {
                 if(rs.getString(1).contentEquals(userPassword)) {
@@ -40,7 +39,7 @@ public class UserDAO { //DB와 1대1로 연동되어 DB에 데이터를 기록�
 
 
     public int join(UserDTO user) throws GeneralSecurityException {
-        String SQL = "INSERT INTO CCTV VALUES(?, ?, ?, ?, ?, ?, false, ?)"; //?는 사용자가 직접 입력한 값
+        String SQL = "INSERT INTO CCTV VALUES(?, ?, ?, ?, ?, ?, false, ?, ?, ?, ?)"; //?는 사용자가 직접 입력한 값
 
         try (Connection conn = DatabaseUtil.getDataSource().getConnection()) {
             PreparedStatement pstmt = conn.prepareStatement(SQL);
@@ -50,7 +49,10 @@ public class UserDAO { //DB와 1대1로 연동되어 DB에 데이터를 기록�
             pstmt.setString(4, user.getUserGender());
             pstmt.setString(5, user.getUserEmail());
             pstmt.setString(6, user.getUserEmailHash());
-            pstmt.setString(7, user.getUserIP());
+            pstmt.setString(7, user.getUserIP1());
+            pstmt.setString(8, user.getUserIP2());
+            pstmt.setString(9, user.getUserIP3());
+            pstmt.setString(10, user.getUserIP4());
 
             return pstmt.executeUpdate(); //insert문을 실행해서 나온 결과를 반환, 데이터를 1개 넣었다면 1을 반환
         } catch (SQLException e) {

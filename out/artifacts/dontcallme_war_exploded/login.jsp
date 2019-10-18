@@ -96,9 +96,6 @@ function FormSubmit() { if (grecaptcha.getResponse() == "")
 					<div class="form-group">
 						<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" maxlength="20">
 					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="IP주소" name="userIP" maxlength="50">
-					</div>
 					<input type="submit" class="btn btn-primary form-control" value="로그인"> <br />
 					<br />
 					<div id="html_element" class="g-recaptcha" data-sitekey="6LcUGL4UAAAAAHQDXJveqB7FG3uS9ih1mqa2FNF3"
