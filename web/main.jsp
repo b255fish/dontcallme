@@ -141,6 +141,7 @@
 						aria-expanded="false">회원관리<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="logoutAction.jsp">로그아웃</a></li>
+						<li><a href="update.jsp">회원수정</a></li>
 						<li><a onclick="return confirm('정말로 탈퇴하시겠습니까?')" href="removeAction.jsp">회원탈퇴</a></li>
 					</ul>
 				</li>
@@ -160,38 +161,43 @@
 	</div>
 
 	<div class="container">
-		<div class="jumbotron"">
-			<h1>스트리밍 서비스</h1>
+		<div class="jumbotron">
+			<h1><%=userID %>의 ES100V Mini</h1>
 			<br />
 			<br />
-			<div class="jumbotron">
-            <!-- 카메라 레이아웃 191018_4/4 -->
-				<h3 style="text-align: center;"><%=userID %>의 이지엔 ES100V Mini</h3>
-				<br />
-				<br />
-				<iframe src="http://b255fish.iptime.org:5000/" style="  display: block; margin-right: auto; margin-left: auto; overflow-x:hidden; overflow:auto; width:380px; height:300px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 vspace=0></iframe>
 
-				<br />
-				<h4 style="text-align: center;"><%=userIP1 %>의 카메라1</h4>
-				<br />
-				<br />
-				<iframe src="http://<%=userIP1 %>:6611/web/admin.html"  style="  display: block; margin-right: auto; margin-left: auto; overflow-x:hidden; overflow:auto; width:380px; height:300px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 vspace=0></iframe>
+			<div class="row" style="text-align:center;">
+				<div class="col-md-6 col-lg-6">
+					<div class="jumbotron" style="padding: 30px;">
+						<p style="font-weight: bold">Flask Test<br/>
+							<br/>
+							<iframe src="http://localhost:5000/" style="  display: block; margin-right: auto; margin-left: auto; overflow-x:hidden; overflow:auto; width:320px; height:300px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 vspace=0></iframe>
+					</div>
+				</div>
 
+				<div class="col-md-6 col-lg-6">
+					<div class="jumbotron" style="padding: 30px;">
+						<p style="font-weight: bold"><%=userIP1 %><br/>
+							<br/>
+							<iframe src="http://<%=userIP1 %>:6611/web/admin.html"  style="  display: block; margin-right: auto; margin-left: auto; overflow-x:hidden; overflow:auto; width:320px; height:300px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 vspace=0></iframe>
+					</div>
+				</div>
 
-				<br />
-				<h4 style="text-align: center;"><%=userIP2 %>의 카메라2</h4>
-				<br />
-				<br />
-				<iframe src="http://<%=userIP2 %>:6611/web/admin.html"  style="  display: block; margin-right: auto; margin-left: auto; overflow-x:hidden; overflow:auto; width:380px; height:300px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 vspace=0></iframe>
+				<div class="col-md-6 col-lg-6">
+					<div class="jumbotron" style="padding: 30px;">
+						<p style="font-weight: bold"><%=userIP2 %><br/>
+							<br/>
+							<iframe src="http://<%=userIP2 %>:6611/web/admin.html"  style="  display: block; margin-right: auto; margin-left: auto; overflow-x:hidden; overflow:auto; width:320px; height:300px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 vspace=0></iframe>
+					</div>
+				</div>
 
-
-				<br />
-				<h4 style="text-align: center;"><%=userIP3 %>의 카메라3</h4>
-				<br />
-				<br />
-				<iframe src="http://<%=userIP3 %>:6611/web/admin.html"  style="  display: block; margin-right: auto; margin-left: auto; overflow-x:hidden; overflow:auto; width:380px; height:300px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 vspace=0></iframe>
-
-				<br />
+				<div class="col-md-6 col-lg-6">
+					<div class="jumbotron" style="padding: 30px;">
+						<p style="font-weight: bold"><%=userIP3 %><br/>
+							<br/>
+							<iframe src="http://<%=userIP3 %>:6611/web/admin.html"  style="  display: block; margin-right: auto; margin-left: auto; overflow-x:hidden; overflow:auto; width:320px; height:300px;" frameborder=0 framespacing=0 marginheight=0 marginwidth=0 vspace=0></iframe>
+					</div>
+				</div>
 			</div>
 
 		</div>	

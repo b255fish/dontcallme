@@ -18,5 +18,5 @@ CREATE TABLE IF NOT EXISTS CCTV (
 
 LOCK TABLES CCTV WRITE;
 INSERT INTO `CCTV` (`userID`, `userPassword`, `userName`, `userGender`, `userEmail`, `userEmailHash`, `userEmailChecked`, `userIP1`, `userIP2`, `userIP3`, `userIP4`) VALUES
-('abcde', 'abcde', 'a1b2c3', 'ff', 'abcde@12345.com', 'abcde', 1, '192.168.0.1', '192.168.0.1', '192.168.0.1', '192.168.0.1');
+('abcde', '/0nyr9y51KCsfoD7R3nrzw==', 'a1b2c3', 'ff', 'abcde@12345.com', 'abcde', 1, '192.168.0.1', '192.168.0.1', '192.168.0.1', '192.168.0.1');
 UNLOCK TABLES;

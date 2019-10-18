@@ -1,29 +1,36 @@
 package user;
 
+import java.io.*;
 import java.security.GeneralSecurityException;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Properties;
+import java.io.IOException;
 
+import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 import org.apache.commons.dbcp2.BasicDataSource;
 import util.DatabaseUtil;
+import util.AESDec;
 
-public class UserDAO { //DB와 1대1로 연동되어 DB에 데이터를 기록하거나 가져오는 역할
-    public UserDAO() {
+public class UserDAO {
+    private String userID; //DB와 1대1로 연동되어 DB에 데이터를 기록하거나 가져오는 역할
+
+    public UserDAO() throws IOException {
         DatabaseUtil.init();
     }
 
-    public int login(String userID, String userPassword) throws GeneralSecurityException {
+    public int login(String userID, String userPassword) throws GeneralSecurityException, IOException {
         String SQL = "SELECT userPassword FROM CCTV WHERE userID = ? ";
-
+        AESDec aes = new AESDec();
         try (Connection conn = DatabaseUtil.getDataSource().getConnection()) {
             PreparedStatement pstmt = conn.prepareStatement(SQL);
             pstmt.setString(1, userID);
             ResultSet rs = pstmt.executeQuery();
             if(rs.next()) {
-                if(rs.getString(1).contentEquals(userPassword)) {
+                if(aes.aesDecode(rs.getString(1)).contentEquals(userPassword)) {
                     return 1; //로그인 성공
                 }
                 else {
@@ -38,13 +45,13 @@ public class UserDAO { //DB와 1대1로 연동되어 DB에 데이터를 기록�
     }
 
 
-    public int join(UserDTO user) throws GeneralSecurityException {
+    public int join(UserDTO user) throws GeneralSecurityException, IOException {
         String SQL = "INSERT INTO CCTV VALUES(?, ?, ?, ?, ?, ?, false, ?, ?, ?, ?)"; //?는 사용자가 직접 입력한 값
-
+        AESDec aes = new AESDec();
         try (Connection conn = DatabaseUtil.getDataSource().getConnection()) {
             PreparedStatement pstmt = conn.prepareStatement(SQL);
             pstmt.setString(1, user.getUserID());
-            pstmt.setString(2, user.getUserPassword());
+            pstmt.setString(2, aes.aesEncode(user.getUserPassword()));
             pstmt.setString(3, user.getUserName());
             pstmt.setString(4, user.getUserGender());
             pstmt.setString(5, user.getUserEmail());
@@ -58,6 +65,26 @@ public class UserDAO { //DB와 1대1로 연동되어 DB에 데이터를 기록�
         } catch (SQLException e) {
             e.printStackTrace();
             return -1; //회원가입 실패
+        }
+    }
+
+    public int update(UserDTO user) throws GeneralSecurityException, IOException  {
+        String SQL = "UPDATE CCTV SET userPassword = ?, userName = ?, userEmail = ?, userIP1 = ?, userIP2 = ?, userIP3 = ?, userIP4 = ? WHERE userID = ?";
+        AESDec aes = new AESDec();
+        try (Connection conn = DatabaseUtil.getDataSource().getConnection()) {
+            PreparedStatement pstmt = conn.prepareStatement(SQL);
+            pstmt.setString(1, aes.aesEncode(user.getUserPassword()));
+            pstmt.setString(2, user.getUserName());
+            pstmt.setString(3, user.getUserEmail());
+            pstmt.setString(4, user.getUserIP1());
+            pstmt.setString(5, user.getUserIP2());
+            pstmt.setString(6, user.getUserIP3());
+            pstmt.setString(7, user.getUserIP4());
+            pstmt.setString(8, user.getUserID());
+            return pstmt.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return -1; //데이터베이스 오류
         }
     }
 

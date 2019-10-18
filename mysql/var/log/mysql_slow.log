@@ -1524,3 +1524,20 @@ SET timestamp=1571326165;
 SELECT *
 FROM `CCTV`
 LIMIT 50;
+# Time: 2019-10-17T16:28:03.304914Z
+# User@Host: root[root] @  [172.25.0.3]  Id:    42
+# Query_time: 0.001918  Lock_time: 0.001664 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1571329683;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+# Time: 2019-10-17T16:28:32.173320Z
+# User@Host: root[root] @  [172.25.0.3]  Id:    45
+# Query_time: 0.001319  Lock_time: 0.001156 Rows_sent: 2  Rows_examined: 2
+SET timestamp=1571329712;
+SELECT *
+FROM `CCTV`
+LIMIT 50;
+/usr/sbin/mysqld, Version: 8.0.17 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument

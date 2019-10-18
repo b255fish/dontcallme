@@ -1,11 +1,14 @@
 package util;
 
+import java.io.*;
 import java.security.Key;
 import org.apache.commons.codec.binary.Base64;
-import java.io.UnsupportedEncodingException;
+
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
+import java.sql.SQLException;
+import java.util.Properties;
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
 import javax.crypto.IllegalBlockSizeException;
@@ -17,9 +20,19 @@ public class AESDec {
 
     private String iv;
     private Key keySpec;
+    private String key;
+    InputStream inputStream;
+    //final static String key = "dontcallmeAES256";
 
+    public AESDec() throws IOException {
 
-    public AESDec(String key) throws UnsupportedEncodingException {
+        String propFile = "util/keymanagement.properties";
+        Properties prop = new Properties();
+        inputStream = getClass().getClassLoader().getResourceAsStream(propFile);
+        prop.load(inputStream);
+
+        key = prop.getProperty("key");
+
         this.iv = key.substring(0, 16);
 
         byte[] keyBytes = new byte[16];
@@ -29,9 +42,11 @@ public class AESDec {
             len = keyBytes.length;
         System.arraycopy(b, 0, keyBytes, 0, len);
         SecretKeySpec keySpec = new SecretKeySpec(keyBytes, "AES");
-
         this.keySpec = keySpec;
+
+
     }
+
     public String aesEncode(String str) throws java.io.UnsupportedEncodingException, NoSuchAlgorithmException,
             NoSuchPaddingException, InvalidKeyException, InvalidAlgorithmParameterException,
             IllegalBlockSizeException, BadPaddingException{
