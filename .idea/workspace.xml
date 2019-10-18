@@ -7,83 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bbd383-519d-43ed-8f84-2c3c49227398" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/logs/host-manager.2019-10-17.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/logs/host-manager.2019-10-18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/logs/localhost.2019-10-17.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/logs/localhost.2019-10-18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/logs/manager.2019-10-17.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/logs/manager.2019-10-18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/browser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/calendar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/camera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/docker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/router.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/source-code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/images/visit-cards.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/dontcallme_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/dontcallme_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/dontcallme_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/dontcallme_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e8802052-eab6-427d-a731-edd020e7d482.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e8802052-eab6-427d-a731-edd020e7d482.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_18.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/To do.txt" beforeDir="false" afterPath="$PROJECT_DIR$/To do.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dontcallme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dontcallme.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/commons-codec-LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/commons-codec-LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/commons-fileupload-LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/commons-fileupload-LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/commons-httpclient-LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/commons-httpclient-LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/httpclient-LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/httpclient-LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/httpcore-LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/httpcore-LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/jaxb-api-LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/jaxb-api-LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/jaxb-impl-LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/jaxb-impl-LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/jaxb-xjc-LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/jaxb-xjc-LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/jaxen-LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/jaxen-LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/jettison-LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/jettison-LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/wsdl4j-LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/wsdl4j-LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/xalan-LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/xalan-LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/xmlbeans-LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/xmlbeans-LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/xmlschema-core-LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lib_temp/axis2-1.7.9-lib/xmlschema-core-LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/mysql-init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/mysql-init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/log/mysql_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/var/log/mysql_error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/log/mysql_general.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/var/log/mysql_slow.log" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/var/log/mysql_slow.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notice.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/user/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/user/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/user/UserDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/info.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/join.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/joinAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/joinAction.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/loginAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/loginAction.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/user/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/user/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/classes/user/UserDTO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/info.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/join.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/joinAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/joinAction.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/loginAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/loginAction.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dontcallme/user/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dontcallme/user/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dontcallme/user/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/dontcallme/user/UserDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/user/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/DatabaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/DatabaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-17.log" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-17.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/info.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/join.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/joinAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/joinAction.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/loginAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/loginAction.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -203,12 +141,7 @@
       <serviceView>
         <option name="contentProportion" value="0.36402968" />
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@22b8877" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -247,6 +180,7 @@
       <workItem from="1571320759159" duration="411000" />
       <workItem from="1571321411753" duration="8109000" />
       <workItem from="1571362582622" duration="5065000" />
+      <workItem from="1571376042139" duration="1145000" />
     </task>
     <servers />
   </component>
@@ -268,5 +202,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/main.jsp</url>
+          <line>170</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

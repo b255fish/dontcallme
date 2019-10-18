@@ -90,6 +90,7 @@ function FormSubmit() { if (grecaptcha.getResponse() == "")
 			<center>
 				<form method="post" action="loginAction.jsp" onsubmit="return FormSubmit();">
 					<h3 style="text-align: center;">로그인 화면</h3>
+                    <br/>
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20">
 					</div>

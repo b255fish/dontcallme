@@ -3114,27 +3114,27 @@ fieldset[disabled] .btn-default.focus {
   background-color: #333;
 }
 .btn-primary {
-  color: #fff;
-  background-color: #4D6A79;
-  border-color: #4D6A79;
+  color: #333;
+  background-color: #fff;
+  border-color: #fff;
 }
 .btn-primary:focus,
 .btn-primary.focus {
-  color: #fff;
-  background-color: #425966;
-  border-color: #425966;
+  color: #333;
+  background-color: #fff;
+  border-color: #fff;
 }
 .btn-primary:hover {
-  color: #fff;
-  background-color: #425966;
-  border-color: #425966;
+  color: #333;
+  background-color: #fff;
+  border-color: #fff;
 }
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-  color: #fff;
-  background-color: #425966;
-  border-color: #425966;
+  color: #333;
+  background-color: #fff;
+  border-color: #fff;
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -3145,9 +3145,9 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary:active.focus,
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
-  color: #fff;
-  background-color: #425966;
-  border-color: #425966;
+  color: #333;
+  background-color: #fff;
+  border-color: #fff;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -3163,11 +3163,11 @@ fieldset[disabled] .btn-primary:focus,
 .btn-primary.disabled.focus,
 .btn-primary[disabled].focus,
 fieldset[disabled] .btn-primary.focus {
-  background-color: #4D6A79;
-  border-color: #4D6A79;
+  background-color: #fff;
+  border-color: #fff;
 }
 .btn-primary .badge {
-  color: #4D6A79;
+  color: #333;
   background-color: #fff;
 }
 .btn-success {
@@ -3567,9 +3567,9 @@ tbody.collapse.in {
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  color: #fff;
+  color: #333;
   text-decoration: none;
-  background-color: #4D6A79;
+  background-color: #e5e5e5;
   outline: 0;
 }
 .dropdown-menu > .disabled > a,

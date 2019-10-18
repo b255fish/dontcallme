@@ -99,7 +99,7 @@
     Date nowTime = new Date();
     SimpleDateFormat sf1 = new SimpleDateFormat("yyyy년");
     SimpleDateFormat sf2 = new SimpleDateFormat("MM월 dd일");
-    SimpleDateFormat sf3 = new SimpleDateFormat("hh:mm:ss");
+    SimpleDateFormat sf3 = new SimpleDateFormat("hh시 mm분 ss초");
 
 
 %>
