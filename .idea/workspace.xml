@@ -8,95 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bbd383-519d-43ed-8f84-2c3c49227398" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ROOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tomcat/conf/server.xml.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/dontcallme_war.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dontcallme.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dontcallme.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notice.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notice.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/META-INF/war-tracker" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/MyClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/user/UserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/user/UserDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/AESDec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/CounterBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/DatabaseUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/Gmail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/SHA256.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/keymanagement.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/classes/util/keymanagement.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/lib/commons-codec-1.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/lib/commons-dbcp2-2.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/lib/commons-pool2-2.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/lib/jakarta.activation-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/lib/jakarta.mail-1.6.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/lib/mysql-connector-java-8.0.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/css/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/emailCheckAction.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/emailSendAction.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/emailSendConfirm.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/images/browser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/images/calendar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/images/camera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/images/cctv.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/images/docker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/images/router.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/images/source-code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/images/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/images/visit-cards.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/info.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/join.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/joinAction.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/loginAction.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/logoutAction.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/main.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/mainAction.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/removeAction.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/update.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/updateAction.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/emailSendAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/emailSendAction.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/emailSendConfirm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/emailSendConfirm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/join.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/update.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tomcat/conf/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/conf/server.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-18.log" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-18.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-18.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/emailSendAction.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/emailSendAction.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/emailSendConfirm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/emailSendConfirm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/join.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/update.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -272,7 +187,7 @@
       <workItem from="1571391365546" duration="10504000" />
       <workItem from="1571405722991" duration="3748000" />
       <workItem from="1571413860984" duration="7008000" />
-      <workItem from="1571421323910" duration="11097000" />
+      <workItem from="1571421323910" duration="12660000" />
     </task>
     <servers />
   </component>
