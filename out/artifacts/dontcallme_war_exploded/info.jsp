@@ -169,7 +169,7 @@
 
         <!-- 여기 순서 대략 바꿈 191016_1/3 -->
             <div class="row" style="text-align:center;">
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-12 col-lg-4">
                     <div class="jumbotron" style="padding: 30px;">
                         <p style="font-weight: bold">시스템 보안 솔루션 <br/>
                             <br/>
@@ -188,7 +188,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-12 col-lg-4">
                     <div class="jumbotron" style="padding: 30px;">
                         <p style="font-weight: bold">네트워크 보안 솔루션 <br/>
                             <br/>
@@ -220,7 +220,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-12 col-lg-4">
                     <div class="jumbotron" style="padding: 30px;">
                         <p style="font-weight: bold">웹 보안 솔루션 <br/>
                             <br/>
@@ -253,7 +253,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-12 col-lg-4">
                     <div class="jumbotron" style="padding: 30px;">
                         <p style="font-weight: bold">회원 정보<br/>
                             <br/>
@@ -273,7 +273,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-12 col-lg-4">
                     <div class="jumbotron" style="padding: 30px;">
                         <p style="font-weight: bold">날짜 정보<br/>
                             <br/>
@@ -292,7 +292,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-12 col-lg-4">
                     <div class="jumbotron" style="padding: 30px;">
                         <p style="font-weight: bold">방문자 정보 <br/>
                             <br/>

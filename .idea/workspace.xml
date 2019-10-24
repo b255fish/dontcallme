@@ -7,21 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bbd383-519d-43ed-8f84-2c3c49227398" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/logs/host-manager.2019-10-24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/logs/localhost.2019-10-24.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tomcat/logs/manager.2019-10-24.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/join.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war/dontcallme_war/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/join.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/dontcallme_war_exploded/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-18.log" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/catalina.2019-10-18.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tomcat/logs/localhost_access_log.2019-10-18.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/info.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/join.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/join.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,12 +138,21 @@
       <serviceView>
         <option name="contentProportion" value="0.36402968" />
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@19a39f4f" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@19a39f4f" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@24c371ad" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
     </option>
-    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -181,6 +187,8 @@
       <workItem from="1571321411753" duration="8109000" />
       <workItem from="1571362582622" duration="5065000" />
       <workItem from="1571376042139" duration="1145000" />
+      <workItem from="1571888224192" duration="260000" />
+      <workItem from="1571888603917" duration="1169000" />
     </task>
     <servers />
   </component>
@@ -202,16 +210,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web/main.jsp</url>
-          <line>170</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -1158,3 +1158,14 @@
 172.30.0.1 - - [18/Oct/2019:05:39:31 +0000] "GET /dontcallme_war/css/custom.css HTTP/1.1" 304 -
 172.30.0.1 - - [18/Oct/2019:05:39:31 +0000] "GET /dontcallme_war/js/bootstrap.js HTTP/1.1" 304 -
 172.30.0.1 - - [18/Oct/2019:05:39:32 +0000] "GET /dontcallme_war/images/cctv.jpg HTTP/1.1" 304 -
+172.30.0.1 - - [18/Oct/2019:08:06:23 +0000] "GET /dontcallme_war/login.jsp HTTP/1.1" 200 3280
+172.30.0.1 - - [18/Oct/2019:08:06:23 +0000] "GET /dontcallme_war/css/bootstrap.css HTTP/1.1" 200 145942
+172.30.0.1 - - [18/Oct/2019:08:06:23 +0000] "GET /dontcallme_war/js/bootstrap.js HTTP/1.1" 200 69707
+172.30.0.1 - - [18/Oct/2019:08:06:23 +0000] "GET /dontcallme_war/css/custom.css HTTP/1.1" 200 1054
+172.30.0.1 - - [18/Oct/2019:08:06:23 +0000] "GET /dontcallme_war/images/cctv.jpg HTTP/1.1" 200 937043
+172.30.0.1 - - [18/Oct/2019:08:06:25 +0000] "GET /favicon.ico HTTP/1.1" 404 1119
+172.30.0.1 - - [18/Oct/2019:08:06:39 +0000] "GET /dontcallme_war/join.jsp HTTP/1.1" 200 3996
+172.30.0.1 - - [18/Oct/2019:08:06:39 +0000] "GET /dontcallme_war/css/bootstrap.css HTTP/1.1" 304 -
+172.30.0.1 - - [18/Oct/2019:08:06:39 +0000] "GET /dontcallme_war/css/custom.css HTTP/1.1" 304 -
+172.30.0.1 - - [18/Oct/2019:08:06:39 +0000] "GET /dontcallme_war/js/bootstrap.js HTTP/1.1" 304 -
+172.30.0.1 - - [18/Oct/2019:08:06:39 +0000] "GET /dontcallme_war/images/cctv.jpg HTTP/1.1" 304 -
