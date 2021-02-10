@@ -9,11 +9,11 @@
 ## Result
   In the video, we made a mistake of joining the rest of the nodes as manager nodes, so I newly upload the picture that works well as a worker node. Also, the code may be incomplete because the source was written in JSP and then moved to Java code. (It is different from the video.)
 
-> [!VIDEO https://www.youtube.com/embed/Ky5RnD2LzeE]
+[![Watch the video](https://img.youtube.com/vi/Ky5RnD2LzeE/maxresdefault.jpg)](https://youtu.be/Ky5RnD2LzeE)
 
 ![example code](rsrc/Graduation_project_(1).png)
 
-#
+g#
 
 ## Purposes
 
