@@ -25,6 +25,7 @@
 
 **Ctrl+Click the Picture**
 ![Addition 1](rsrc/Graduation_project_add_(1).png)
+
 ![Addition 2](rsrc/Graduation_project_add_(2).png)
 
 #
