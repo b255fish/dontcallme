@@ -78,7 +78,7 @@ We thought about how to design the system safely. First, we set up a rough struc
 - Back-end
   > We used the Spring framework (Spring boot) with Tomcat built-in and Gradle (build automation system). The Spring Framework was chosen because of the following advantages.
   - Access control such as authentication and authorization can be easily implemented by using Spring security library.
-  - Using JPA Data and Hibernate ORM, which is a JPA implementation, we can easily connect in the database and write code that manipulates DB data, in Java language.
+  - Using JPA Data and Hibernate ORM, which is a JPA implementation, we can easily connect in the database and write code that manipulates DB data, in Java language. We used the MySQL as Database.
 
 #
 
@@ -92,7 +92,8 @@ We thought about how to design the system safely. First, we set up a rough struc
 ### 4. Distribution and Maintenance
 
 - Docker
-  Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers.
+  > Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers.
+
   > The program created in the development environment is made into a .jar file, and it is made into an independently executable container/image (software package). Containers created in this way can communicate with other containers to have minimal coupling. Namely, RBAC (Role-based Access Control) is possible because if it is not the same network or if the authority is not given, it cannot be contacted at all with other containers.
 
   > Reference
@@ -101,7 +102,7 @@ We thought about how to design the system safely. First, we set up a rough struc
 ###
 
 - Docker Swarm
-  The container created in this way can be treated as a service and managed using Docker Swarm or Kubernetes, which functions as Container Orchestration.
+  > The container created in this way can be treated as a service and managed using Docker Swarm or Kubernetes, which functions as Container Orchestration. We used it by creating Virtual machine using Hyper-V.
 
   > The threat of cracking can be reduced by hiding the network structure through functions such as container automatic deployment/replication/load balancing/failure recovery/expansion. In addition, through a function called Docker Secrets, sensitive information such as passwords and SSH keys, which are serialized data, can be encrypted.
 
