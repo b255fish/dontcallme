@@ -76,7 +76,7 @@ We thought about how to design the system safely. First, we set up a rough struc
 ###
 
 - Back-end
-  > We used the Spring framework (Spring boot) with Tomcat built-in. The Spring Framework was chosen because of the following advantages.
+  > We used the Spring framework (Spring boot) with Tomcat built-in and Gradle (build automation system). The Spring Framework was chosen because of the following advantages.
   - Access control such as authentication and authorization can be easily implemented by using Spring security library.
   - Using JPA Data and Hibernate ORM, which is a JPA implementation, we can easily connect in the database and write code that manipulates DB data, in Java language.
 
@@ -85,7 +85,7 @@ We thought about how to design the system safely. First, we set up a rough struc
 ### 3. CI/CD
   > The process of writing the source code, building, ["4"](#4-distribution-and-maintenance), and individual testing of the project was so slow that I tried to use it when we was done with each task. However, amount of work to do keep growing, and that doesn't happen.
 
-  > We were going to use Jekins that have MIT License.
+  > We were going to use Jekins that have MIT License with Gradle.
 
 #
 
