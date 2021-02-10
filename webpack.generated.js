@@ -93,9 +93,8 @@ module.exports = {
 
   devServer: {
     // webpack-dev-server serves ./ ,  webpack-generated,  and java webapp
-    // when Vaadin is running in development mode it is expecting everything to be located under src/main/webapp/frontend.
-    // This is ok as it allows you to develop faster without compiling.
-   contentBase: [mavenOutputFolderForFlowBundledFiles, 'src/main/webapp'],
+    // https://vaadin.com/docs/v14/flow/importing-dependencies/tutorial-ways-of-importing.html#resource-cheat-sheet
+   contentBase: [mavenOutputFolderForFlowBundledFiles, 'src/main/resources/META-INF/resources'],
     after: function(app, server) {
       app.get(`/stats.json`, function(req, res) {
         res.json(stats.toJson());
