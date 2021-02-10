@@ -8,12 +8,14 @@
 #
 ## Result
   In the video, we made a mistake of joining the rest of the nodes as manager nodes, so I newly upload the picture that works well as a worker node. Also, the code may be incomplete because the source was written in JSP and then moved to Java code. (It is different from the video.)
+[![Watch the video](rsrc/Graduation_project_(1).gif)](https://youtu.be/Ky5RnD2LzeE)
 
-[![Watch the video](https://img.youtube.com/vi/Ky5RnD2LzeE/maxresdefault.jpg)](https://youtu.be/Ky5RnD2LzeE)
+[![Watch the video](rsrc/Graduation_project_(2).gif)](https://youtu.be/NIk9ZxB-kcs)
 
-![example code](rsrc/Graduation_project_(1).png)
+[![Watch the video](rsrc/Graduation_project_(3).gif)](https://youtu.be/mGXqDwWQtnA)
 
-g#
+![example code](rsrc/Graduation_project_add_(1).png)
+
 
 ## Purposes
 
