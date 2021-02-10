@@ -11,6 +11,16 @@
   > These are our thoughts at that time.
   >> “We are no longer students. We can't just look at the one-dimensional side to get into society soon. So, before we start a project, we need to choose software based on licenses, availability, cost, and know how to deploy and maintain. if possible, let's us do it ourselves."
 
+  > After the project period was over, We were left with regret for the following list we couldn't do because the more information we search for, the more we have to do.
+
+- In the development environment
+  - To increase security by using Salting for login encryption.
+  - Using TypeScript instead of JavaScript, which is a way of dynamic programming, to make it easier to catch errors during the compilation process.
+  - Writing test cases for testing.
+
+- In the distribution environment
+  - The value of the environment variable in the docker.yml configuration file of Docker Swarm cannot accept the list format, and there is a limit to encryption. So instead of Docker Swarm, trying to use Kubernetes that supports various types of encryption. Docker Swarm and Kubernetes both use Apache licenses.
+
 #
 
 ## Result
@@ -46,7 +56,7 @@ We thought about how to design the system safely. First, we set up a rough struc
     So we selected this.
   
 - Cluster
-  - When I was studying Docker, I used Docker Swarm because the site also had Docker Swarm. I found Kubernetes later and tried to move it to it, but the project was running out of time. So I used Docker Swarm as it is.
+  - When I was studying Docker, I used Docker Swarm because the site also had Docker Swarm. I found better Kubernetes later and tried to move it to it, but the project was running out of time. So I used Docker Swarm as it is.
 
 - Cloud
   - If there is time left for the project, I tried to challenge it, but I couldn't get there because we ran out of time.
@@ -80,20 +90,22 @@ We thought about how to design the system safely. First, we set up a rough struc
 #
 
 ### 4. Distribution and Maintenance
-  - Docker 1. Code formatter
-      - autopep8, yapf, black
-        There are several code formatters to make the code look pretty.
-        But I choose "black" because I thought it was the best.
-        I have the same opinion as the author in the link below.
-        //
-        Reference
-          [Compare_Code_formatter] (https://www.kevinpeters.net/auto-formatters-for-python)
 
-    2. Code checker
-      - Pylint, Flake8
-        I choose this because Flake8 is better at catching the error by searching several comments from the community site. 
+- Docker
+  Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers.
+  > The program created in the development environment is made into a .jar file, and it is made into an independently executable container/image (software package). Containers created in this way can communicate with other containers to have minimal coupling. Namely, RBAC (Role-based Access Control) is possible because if it is not the same network or if the authority is not given, it cannot be contacted at all with other containers.
 
-#
+  > Reference
+    [Docker] (https://en.wikipedia.org/wiki/Docker_(software))
 
+###
+
+- Docker Swarm
+  The container created in this way can be treated as a service and managed using Docker Swarm or Kubernetes, which functions as Container Orchestration.
+
+  > The threat of cracking can be reduced by hiding the network structure through functions such as container automatic deployment/replication/load balancing/failure recovery/expansion. In addition, through a function called Docker Secrets, sensitive information such as passwords and SSH keys, which are serialized data, can be encrypted.
+
+  > Reference
+  [Orchestration_(computing)] (https://en.wikipedia.org/wiki/Orchestration_(computing))
 
 #
