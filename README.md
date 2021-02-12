@@ -9,7 +9,7 @@
 #### This is the Graduation project (3 people)
 
   > These are our thoughts at that time.
-  >> “We are no longer students. We can't just look at the one-dimensional side to get into society soon. So, before we start a project, we need to choose software based on licenses, availability, cost, and know how to deploy and maintain. if possible, let's us do it ourselves."
+  >> “We are no longer students. We can't just look at the one-dimensional side to get into society soon. So, before we start a project, we need to choose software based on licenses, availability, cost, and know how to deploy and maintain. if possible, let's do it ourselves."
 
   > After the project period was over, We were left with regret for the following list we couldn't do because the more information we search for, the more we have to do.
 
